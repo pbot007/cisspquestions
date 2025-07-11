@@ -1,0 +1,4603 @@
+1. A nonprofit is evaluating its exposure if a key executive’s personal device is compromised. Which process focuses on identifying threats and quantifying potential losses?  
+- A. Vulnerability assessment  
+- B. Risk assessment  
+- C. Business impact analysis  
+- D. Threat modeling  
+
+**Answer: B**
+**Explanation:** Risk assessment evaluates threats and estimates both likelihood and impact of losses. Vulnerability assessments find weaknesses, BIA measures operational disruptions, and threat modeling maps attack paths.
+
+2. Under which contract clause can an organization require a vendor to maintain information security controls at least as stringent as its own?  
+- A. Service-level agreement  
+- B. Nondisclosure agreement  
+- C. Security addendum  
+- D. Memorandum of understanding  
+
+**Answer: C**  
+**Explanation:** A security addendum explicitly appends detailed security requirements to a contract. SLAs address performance, NDAs cover confidentiality, and MOUs outline informal partnerships.
+
+
+
+3. Which security principle ensures that an employee sees only the data necessary to perform a job function?  
+- A. Least privilege  
+- B. Need to know  
+- C. Separation of duties  
+- D. Job rotation  
+
+**Answer: B**  
+**Explanation:** “Need to know” restricts information visibility to those who require it for their roles. Least privilege limits system rights, separation of duties splits tasks, and job rotation swaps roles.
+
+
+
+4. A CISO is deciding whether to accept the risk of data loss or transfer it to an insurer. This decision is part of which risk-management strategy?  
+- A. Risk avoidance  
+- B. Risk transference  
+- C. Risk mitigation  
+- D. Risk acceptance  
+
+**Answer: B**  
+**Explanation:** Risk transference shifts financial impact to a third party (insurer). Acceptance retains risk, avoidance eliminates it, and mitigation reduces it.
+
+
+
+5. In a mature information security program, who has ultimate accountability for risk governance?  
+- A. Security manager  
+- B. Chief Risk Officer  
+- C. Board of directors  
+- D. IT audit  
+
+**Answer: C**  
+**Explanation:** The board of directors holds final accountability for organizational risk governance and oversight, even if CROs or managers execute policies.
+
+
+
+6. Which document formally authorizes operation of a system and binds residual risk to the organization?  
+- A. Security policy  
+- B. Certificate of destruction  
+- C. Authority to operate  
+- D. Service-level agreement  
+
+**Answer: C**  
+**Explanation:** An Authority to Operate (ATO) grants formal approval for a system’s operation and acknowledges accepted residual risk.
+
+
+
+7. When an organization implements ISO 27001, the first mandatory step is to:  
+- A. Define the scope of the ISMS  
+- B. Conduct penetration testing  
+- C. Issue security training  
+- D. Implement technical controls  
+
+**Answer: A**  
+**Explanation:** Defining the ISMS scope establishes boundaries and context, which guides all subsequent ISO 27001 activities.
+
+
+
+8. A healthcare provider classifies patient files according to criticality. Which data classification label applies if files must be retained for legal reasons but not routinely accessed?  
+- A. Confidential  
+- B. Public  
+- C. Regulatory  
+- D. Internal use only  
+
+**Answer: C**  
+**Explanation:** The “Regulatory” label covers data that require retention by law but aren’t actively used. Confidential is sensitivity-based, internal use only is for company-internal info.
+
+
+
+9. During data disposal, which method ensures that magnetic media cannot be reconstructed?  
+- A. Degaussing  
+- B. Overwriting once  
+- C. Physical shredding  
+- D. Encryption  
+
+**Answer: A**  
+**Explanation:** Degaussing disrupts magnetic domains, making data unrecoverable. Overwriting may leave remnants, shredding is physical, encryption protects only if keys are destroyed.
+
+
+
+10. A company tags documents “Proprietary” and restricts sharing outside the firm. This is an example of:  
+- A. Ownership  
+- B. Retention  
+- C. Classification  
+- D. Handling  
+
+**Answer: C**  
+**Explanation:** Classification assigns labels (e.g., Proprietary) to dictate handling rules. Ownership names the custodian, retention sets disposal rules, handling describes processing.
+
+
+
+11. Which control type helps prevent unauthorized modification of master backups?  
+- A. Detective  
+- B. Corrective  
+- C. Preventive  
+- D. Deterrent  
+
+**Answer: C**  
+**Explanation:** Preventive controls (e.g., write-protect switches) block improper changes. Detective controls alert, corrective controls mitigate damage, deterrent controls discourage action.
+
+
+
+12. An organization implements data-loss prevention on the network perimeter. Which element enforces policy on sensitive data in transit?  
+- A. NAC  
+- B. DLP gateway  
+- C. IDS  
+- D. SIEM  
+
+**Answer: B**  
+**Explanation:** A DLP gateway inspects and enforces policies on data moving across network boundaries. NAC handles device access, IDS detects intrusions, SIEM aggregates logs.
+
+
+
+13. In an engineering review, which model helps validate that a system’s trust boundary is correctly enforced?  
+- A. Bell-LaPadula  
+- B. Clark-Wilson  
+- C. Biba  
+- D. Brewer-Nash  
+
+**Answer: A**  
+**Explanation:** Bell-LaPadula enforces confidentiality by preventing “read up” and “write down” across trust boundaries. Biba focuses on integrity, Clark-Wilson on transactions, Brewer-Nash on conflicts of interest.
+
+
+
+14. When designing for resilience, which concept ensures no single failure stops mission-critical functions?  
+- A. Fault tolerance  
+- B. Defense in depth  
+- C. Diversity  
+- D. Least common mechanism  
+
+**Answer: A**  
+**Explanation:** Fault tolerance provides redundant components so that a single point of failure doesn’t disrupt operations. Defense in depth layers defenses, diversity varies controls, least common mechanism minimizes shared parts.
+
+
+
+15. A requirement dictates that cryptographic modules must comply with FIPS 140-2. This is which security architecture artifact?  
+- A. Baseline  
+- B. Standard  
+- C. Guideline  
+- D. Policy  
+
+**Answer: B**  
+**Explanation:** A “Standard” mandates specific technical criteria. Baselines are minimum settings, guidelines are advisory, policies are high-level directives.
+
+
+
+16. Which hardware-based approach isolates system firmware from the operating system?  
+- A. Secure boot  
+- B. Hypervisor  
+- C. Trusted Platform Module  
+- D. TPM sealing  
+
+**Answer: C**  
+**Explanation:** A TPM (Trusted Platform Module) provides isolated hardware for secure key storage and measurement, separate from the OS. Secure boot verifies code, hypervisors virtualize, sealing ties data to states.
+
+
+
+17. In a high-availability design, active-active clustering provides what advantage over active-passive?  
+- A. Simplified maintenance  
+- B. Zero single point of failure  
+- C. Lower resource cost  
+- D. Predictable failover  
+
+**Answer: B**  
+**Explanation:** Active-active uses all nodes simultaneously, eliminating a single point of failure. Active-passive maintains standby nodes, increasing idle resources and potential downtime.
+
+
+
+18. Which access control model prevents a user from writing data from a higher classification to a lower one?  
+- A. Biba  
+- B. Bell-LaPadula  
+- C. Clark-Wilson  
+- D. Reynolds  
+
+**Answer: B**  
+**Explanation:** Bell-LaPadula enforces “no write down” to protect confidentiality. Biba enforces “no write up” for integrity, Clark-Wilson on transaction rules.
+
+
+
+19. Which protocol uses a three-way handshake and sequence numbers to protect against session hijacking?  
+- A. UDP  
+- B. TCP  
+- C. ICMP  
+- D. SCTP  
+
+**Answer: B**  
+**Explanation:** TCP’s three-way handshake (SYN, SYN-ACK, ACK) establishes sequence numbers, mitigating spoofing and hijacking. UDP is connectionless, ICMP diagnostic, SCTP multi-streamed.
+
+
+
+20. When segmenting a network to isolate a DMZ, you would place the DMZ firewall between which two interfaces?  
+- A. Internal–external  
+- B. External–DMZ  
+- C. Internal–DMZ  
+- D. External–internal  
+
+**Answer: B**  
+**Explanation:** The DMZ firewall sits between external (Internet) and DMZ interfaces, protecting internal assets while exposing DMZ services.
+
+
+
+21. Which device inspects SSL/TLS traffic for threats while maintaining encryption end to end?  
+- A. SSL accelerators  
+- B. Transparent proxy  
+- C. TLS termination proxy  
+- D. Stateful firewall  
+
+**Answer: B**  
+**Explanation:** A transparent proxy intercepts and inspects encrypted traffic inline without requiring client reconfiguration. SSL accelerators offload crypto, termination proxies break and re-encrypt sessions.
+
+
+
+22. To prevent ARP poisoning in a switched environment, which mitigation can you deploy?  
+- A. Dynamic ARP inspection  
+- B. Port security  
+- C. VLAN tagging  
+- D. MAC filtering  
+
+**Answer: A**  
+**Explanation:** Dynamic ARP inspection validates ARP packets against a trusted database. Port security and MAC filtering limit endpoints, VLANs segment network but don’t inspect ARP.
+
+
+
+23. A network uses both IPv4 and IPv6. Which transition mechanism tunnels IPv6 over IPv4?  
+- A. NAT64  
+- B. 6to4  
+- C. Dual-stack  
+- D. Teredo  
+
+**Answer: B**  
+**Explanation:** 6to4 encapsulates IPv6 packets within IPv4 for transport. NAT64 translates traffic, dual-stack runs both protocols natively, Teredo tunnels over UDP.
+
+
+
+24. Which wireless security feature ensures only authorized devices with valid sessions may connect?  
+- A. WPA2-Enterprise  
+- B. MAC filtering  
+- C. WEP  
+- D. SSID cloaking  
+
+**Answer: A**  
+**Explanation:** WPA2-Enterprise uses 802.1X and a RADIUS server for per-device authentication. MAC filtering is spoofable, WEP is insecure, SSID cloaking merely hides the SSID.
+
+
+
+25. In an LDAP directory, which attribute is commonly used to enforce unique IDs?  
+- A. cn  
+- B. uid  
+- C. dn  
+- D. ou  
+
+**Answer: B**  
+**Explanation:** The uid (user identifier) attribute ensures a unique username. cn is a common name, dn is the full distinguished name, ou denotes organizational unit.
+
+
+
+26. Which IAM process confirms that a user’s access rights remain valid over time?  
+- A. Provisioning  
+- B. Deprovisioning  
+- C. Access certification  
+- D. Role mining  
+
+**Answer: C**  
+**Explanation:** Access certification (recertification) periodically reviews and validates existing entitlements. Provisioning grants access, deprovisioning revokes, role mining analyzes roles.
+
+
+
+27. A company mandates SAML for single sign-on. Which role issues authentication assertions?  
+- A. Service provider  
+- B. Identity provider  
+- C. Attribute authority  
+- D. Federation broker  
+
+**Answer: B**  
+**Explanation:** The Identity Provider (IdP) authenticates users and issues SAML assertions. The service provider consumes assertions, attribute authorities and brokers aren’t core SAML roles.
+
+
+
+28. Which access-control approach dynamically grants privileges based on real-time risk scoring?  
+- A. RBAC  
+- B. ABAC  
+- C. MAC  
+- D. DAC  
+
+**Answer: B**  
+**Explanation:** Attribute-Based Access Control (ABAC) uses user, resource, and environmental attributes for context-aware decisions. RBAC is role-centric, MAC is label-based, DAC is owner-based.
+
+
+
+29. A rotating administrator password vault that auto-updates credentials exemplifies which control?  
+- A. Preventive  
+- B. Detective  
+- C. Corrective  
+- D. Compensating  
+
+**Answer: A**  
+**Explanation:** Automating credential rotation prevents misuse by ensuring passwords change before compromise. Detective controls alert, corrective restore, compensating provide alternate safeguards.
+
+
+
+30. When implementing MFA, which factor category is the hardest to repudiate?  
+- A. Knowledge  
+- B. Possession  
+- C. Inherence  
+- D. Location  
+
+**Answer: C**  
+**Explanation:** Inherence (biometrics) ties authentication to unique physical traits, making repudiation (denial) difficult. Knowledge and possession can be shared or stolen; location can be spoofed.
+
+
+
+31. Which test uses actual malware in a controlled environment to evaluate endpoint detection?  
+- A. Vulnerability scanning  
+- B. Penetration test  
+- C. Red teaming  
+- D. Malware sandboxing  
+
+**Answer: D**  
+**Explanation:** Malware sandboxing executes real malicious code in an isolated lab to observe behavior. Pen tests exploit known weaknesses, red teams simulate adversaries, scans identify vulnerabilities.
+
+
+
+32. A security assessor needs to prove PCI-DSS encryption at rest. Which artifact best demonstrates compliance?  
+- A. Configuration baseline  
+- B. Network diagram  
+- C. Audit logs  
+- D. Data classification policy  
+
+**Answer: A**  
+**Explanation:** A configuration baseline shows encryption settings enforced on storage. Diagrams map topology, logs record events but not encryption state, policy dictates rules without proof of implementation.
+
+
+
+33. During a code review, which flaw violates the OWASP Top 10’s injection category?  
+- A. Unsanitized user input in SQL  
+- B. Missing CSRF token  
+- C. Broken access control  
+- D. Insecure deserialization  
+
+**Answer: A**  
+**Explanation:** Directly embedding unsanitized input into SQL queries enables injection. CSRF relates to request forgery, access control to authorization, deserialization to object tampering.
+
+
+
+34. Which metric measures the percentage of failed login attempts that trigger an alert?  
+- A. MTTR  
+- B. FPR  
+- C. TPR  
+- D. SLA  
+
+**Answer: B**  
+**Explanation:** False Positive Rate (FPR) is the ratio of benign events incorrectly flagged. MTTR measures repair time, TPR true positive rate, SLA service commitments.
+
+
+
+35. In black-box testing, the tester’s knowledge level is:  
+- A. Full internal network details  
+- B. Only public-facing info  
+- C. Credentialed user  
+- D. System architecture  
+
+**Answer: B**  
+**Explanation:** Black-box testers know only what an external attacker would—public interfaces and documents. White-box testing has full details, credentialed is grey-box.
+
+
+
+36. Which assessment technique is best for verifying OS-level patch currency?  
+- A. Manual audit  
+- B. Vulnerability scan  
+- C. Penetration test  
+- D. Red team exercise  
+
+**Answer: B**  
+**Explanation:** Vulnerability scanners probe systems and report missing patches. Manual audits are slow, penetration tests focus on exploits, red teams simulate attackers.
+
+
+
+37. When an IDS raises an alert, which tool correlates logs to identify attack patterns?  
+- A. SIEM  
+- B. NIPS  
+- C. WAF  
+- D. DLP  
+
+**Answer: A**  
+**Explanation:** A SIEM aggregates and correlates logs and alerts to reveal complex attack chains. NIPS prevents intrusions, WAF filters web traffic, DLP protects data.
+
+
+
+38. Which backup type captures only data changed since the last full backup?  
+- A. Full  
+- B. Differential  
+- C. Incremental  
+- D. Synthetic  
+
+**Answer: B**  
+**Explanation:** Differential backups include all changes since the last full backup. Incremental only since the last backup (full or incremental), synthetic merges backups.
+
+
+
+39. An attacker exfiltrates data via DNS tunneling. Which control would most effectively detect this?  
+- A. URL filter  
+- B. DNSSEC  
+- C. Network DLP  
+- D. Anti-virus  
+
+**Answer: C**  
+**Explanation:** Network DLP inspects DNS traffic patterns and content for covert channels. URL filters block web URLs, DNSSEC ensures DNS integrity, AV detects known malware.
+
+
+
+40. Which incident-response phase focuses on restoring systems to normal operation?  
+- A. Identification  
+- B. Containment  
+- C. Eradication  
+- D. Recovery  
+
+**Answer: D**  
+**Explanation:** The recovery phase restores systems and services to their standard functions after eradication of threats.
+
+
+
+41. A security operations center uses MITRE ATT&CK to map alerts. This is an example of:  
+- A. Threat intelligence  
+- B. Penetration testing  
+- C. Vulnerability management  
+- D. Baseline comparison  
+
+**Answer: A**  
+**Explanation:** MITRE ATT&CK provides a framework for classifying adversary techniques, a key threat intelligence activity. The others relate to proactive testing or policy enforcement.
+
+
+
+42. Which policy ensures a rapid, standardized reaction to malware outbreaks?  
+- A. Incident response plan  
+- B. Business continuity plan  
+- C. Disaster recovery plan  
+- D. Change management policy  
+
+**Answer: A**  
+**Explanation:** An incident response plan defines specific steps for detecting, containing, and eradicating malware quickly. BCP/DRP address broader continuity and recovery, change management governs authorized changes.
+
+
+
+43. During SDLC, which phase should threat modeling occur?  
+- A. Requirements  
+- B. Design  
+- C. Implementation  
+- D. Testing  
+
+**Answer: B**  
+**Explanation:** Threat modeling in the design phase uncovers potential attack vectors early, guiding secure architecture before coding begins.
+
+
+
+44. Which secure coding practice prevents buffer overflows?  
+- A. Input validation  
+- B. Race-condition mitigation  
+- C. Code obfuscation  
+- D. Dead-code removal  
+
+**Answer: A**  
+**Explanation:** Input validation ensures data fits expected size and format, blocking oversized payloads that cause overflows.
+
+
+
+45. A developer integrates a third-party library with known CVEs. Which process should catch this?  
+- A. Static code analysis  
+- B. Dynamic application testing  
+- C. Penetration testing  
+- D. Fuzzing  
+
+**Answer: A**  
+**Explanation:** Static analysis tools scan code and dependencies for known vulnerabilities before runtime. Dynamic testing and pentests focus on behavior, fuzzing injects random inputs.
+
+
+
+46. Which methodology enforces separation of code and data spaces to prevent code injection?  
+- A. DEP/NX  
+- B. ASLR  
+- C. WAF  
+- D. CSP  
+
+**Answer: A**  
+**Explanation:** Data Execution Prevention (DEP) or No-Execute (NX) marks memory pages non-executable, thwarting injected code.
+
+
+
+47. In a continuous integration pipeline, which control blocks builds when security tests fail?  
+- A. Manual approval  
+- B. Automated gate  
+- C. QA sign-off  
+- D. Change advisory board  
+
+**Answer: B**  
+**Explanation:** An automated gate enforces policy by halting the pipeline on failed tests. Manual processes introduce delays and human error.
+
+
+
+48. Which license analysis prevents unintentional inclusion of GPL-licensed code in proprietary apps?  
+- A. Dependency scanning  
+- B. Code signing  
+- C. Obfuscation  
+- D. Watermarking  
+
+**Answer: A**  
+**Explanation:** Dependency scanners audit open-source libraries and their licenses, warning of GPL or incompatible licenses.
+
+
+
+49. To harden a mobile app, which practice reduces sensitive data exposure in memory?  
+- A. In-app encryption  
+- B. Code minification  
+- C. SSL pinning  
+- D. Sandboxing  
+
+**Answer: D**  
+**Explanation:** Sandboxing isolates app processes, preventing other apps or OS components from reading its memory. In-app encryption protects storage, minification shrinks code, pinning secures connections.
+
+
+
+50. Which technique tests API endpoints for business-logic flaws?  
+- A. Fuzzing  
+- B. Burp Intruder  
+- C. Logic-based scripting  
+- D. Automated scanner  
+
+**Answer: C**  
+**Explanation:** Logic-based scripting tailors tests to specific business workflows and rules, uncovering flaws beyond generic input attacks.
+
+
+
+51. A financial services firm must demonstrate compliance with data protection laws in multiple jurisdictions. Which document outlines how the firm addresses diverse regulatory requirements?  
+- A. Privacy impact assessment  
+- B. Data handling policy  
+- C. Regulatory framework map  
+- D. Incident response plan  
+
+**Answer: C**  
+**Explanation:** A regulatory framework map cross-references laws to internal controls across jurisdictions. A PIA assesses privacy risks, a data handling policy prescribes procedures, and an IRP covers breach response.
+
+
+
+52. Which risk analysis method assigns numeric values to both likelihood and impact to calculate a risk score?  
+- A. Qualitative  
+- B. Quantitative  
+- C. Hybrid  
+- D. Heuristic  
+
+**Answer: B**  
+**Explanation:** Quantitative analysis uses statistical or monetary scales to score risks precisely. Qualitative uses descriptive ratings, hybrid combines both, and heuristic relies on expert rules.
+
+
+
+53. A company’s board requires that all security policies be reviewed every 12 months. This requirement is part of which governance principle?  
+- A. Separation of duties  
+- B. Continuous monitoring  
+- C. Policy management  
+- D. Least privilege  
+
+**Answer: C**  
+**Explanation:** Policy management governs creation, review, and retirement schedules. Continuous monitoring tracks events, separation of duties splits functions, and least privilege restricts rights.
+
+
+
+54. In vendor risk management, which step verifies that a supplier’s security controls function as claimed?  
+- A. Contract negotiation  
+- B. Security assessment  
+- C. Service-level agreement review  
+- D. NDA execution  
+
+**Answer: B**  
+**Explanation:** A security assessment (audit or questionnaire) tests vendor controls. SLAs define service metrics, NDAs protect confidentiality, and contract negotiation sets terms.
+
+55. Which principle ensures key decisions about security investments align with business objectives?
+- A. Risk appetite
+- B. Defense in depth
+- C. Cost-benefit analysis
+- D. Business impact analysis
+
+**Answer: C**
+**Explanation:** Cost-benefit analysis compares costs of controls versus expected loss reduction, aligning investments. Risk appetite sets tolerance, defense in depth layers controls, BIA assesses impacts.
+
+56. A firm has an “opt-in” corporate privacy standard requiring customer consent before data collection. This exemplifies which data protection concept?
+- A. Accountability
+- B. Transparency
+- C. Data minimization
+- D. Consent
+
+**Answer: D**
+**Explanation:** The opt-in model explicitly captures user consent. Transparency means clear disclosure, data minimization limits data collected, and accountability assigns responsibility.
+
+57. Which security role is Ultimately Responsible for approving risk treatment plans?
+- A. Chief Information Security Officer
+- B. Risk owner
+- C. Security architect
+- D. Business process owner
+
+**Answer: B**
+**Explanation:** Risk owners (business managers) accept or treat risks in their domain. CISOs coordinate, architects design controls, and business owners drive processes but risk owners hold treatment accountability.
+
+58. Which classification label should be applied to trade-secret formulas that few employees need to know?
+- A. Public
+- B. Confidential
+- C. Restricted
+- D. Top secret
+
+**Answer: C**
+**Explanation:** “Restricted” limits access to a small group. Confidential covers broader internal data, public is open, and “Top secret” is used in government contexts.
+
+59. A company uses digital rights management to enforce usage rules on documents. DRM is primarily a control in which category?
+- A. Administrative
+- B. Technical
+- C. Physical
+- D. Managerial
+
+**Answer: B**
+**Explanation:** DRM is a technical control that enforces access and usage. Administrative covers policies, physical secures facilities, and managerial covers oversight.
+
+60. During classification, which action permanently removes classification markings when data is declassified?
+- A. Sanitization
+- B. Label stripping
+- C. Reclassification
+- D. Entropy enhancement
+
+**Answer: B**
+**Explanation:** Label stripping removes or replaces markings. Sanitization overwrites content, reclassification changes label, and entropy enhancement increases randomness.
+
+61. Which technique prevents unauthorized users from copying files from a secure repository?
+- A. DLP agent
+- B. Full-disk encryption
+- C. Secure boot
+- D. Role mining
+
+**Answer: A**
+**Explanation:** A DLP agent monitors and blocks unauthorized file actions. Full-disk encryption protects at rest, secure boot validates firmware, role mining analyzes roles.
+
+62. Which asset-management process tracks hardware by unique tag numbers and locations?
+- A. Configuration management
+- B. Change management
+- C. Inventory control
+- D. Version control
+
+**Answer: C**
+**Explanation:** Inventory control catalogs and locates assets. Configuration management tracks settings, change management handles modifications, version control handles code.
+
+63. In a layered security design, which component enforces the boundary between internal servers and external users?
+- A. IDS
+- B. Firewall
+- C. VPN concentrator
+- D. Proxy server
+
+**Answer: B**
+**Explanation:** A firewall filters traffic at network boundaries. IDS detects intrusions, VPN concentrators secure tunnels, proxies cache and mediate requests.
+
+64. Which security model pairs integrity levels with separation rules to prevent data corruption?
+- A. Bell-LaPadula
+- B. Clark-Wilson
+- C. Biba
+- D. Brewer-Nash
+
+**Answer: C**
+**Explanation:** Biba focuses on integrity with “no write up” and “no read down.” Bell-LaPadula handles confidentiality, Clark-Wilson enforces transaction integrity, Brewer-Nash handles conflicts.
+
+65. Which type of hypervisor runs on top of a host OS rather than directly on hardware?
+- A. Type 1
+- B. Type 2
+- C. Bare-metal
+- D. Embedded
+
+**Answer: B**
+**Explanation:** Type 2 hypervisors run as applications on a host OS. Type 1 (bare-metal) runs directly on hardware. Embedded is for specialized systems.
+
+66. A system uses hardware roots of trust to measure boot-time integrity. Which technology is in use?  
+- A. Trusted Platform Module  
+- B. Secure boot  
+- C. Hypervisor introspection  
+- D. Code signing  
+
+**Answer: A**
+**Explanation:** TPM stores measurements of boot components. Secure boot verifies signatures but uses TPM to store state. Introspection monitors VMs, code signing signs binaries.
+
+67. Which architectural pattern isolates services into separate trust zones to limit lateral movement?
+- A. Microservices
+- B. Service mesh
+- C. Zero trust
+- D. Monolithic
+
+**Answer: C**
+**Explanation:** Zero trust architecture segments and micro-segments, requiring continuous verification. Microservices is a design style, service mesh manages microservices, monolithic is a single code base.
+
+68. Which principle minimizes shared code and resources to reduce the attack surface?
+- A. Least privilege
+- B. Separation of duties
+- C. Least common mechanism
+- D. Defense in depth
+
+**Answer: C**
+**Explanation:** Least common mechanism advises against sharing components. Least privilege limits rights, separation of duties prevents fraud, defense in depth layers controls.
+
+69. Which protocol provides secure remote management of network devices via an encrypted channel?
+- A. Telnet
+- B. SSH
+- C. SNMPv1
+- D. RDP
+
+**Answer: B**
+**Explanation:** SSH encrypts command sessions. Telnet is unencrypted, SNMPv1 is insecure, and RDP is for Windows remote desktops.
+
+70. Which technology segregates network traffic by embedding VLAN tags in Ethernet frames?  
+- A. NAT  
+- B. VLAN  
+- C. VPN  
+- D. MPLS
+
+**Answer: B**
+**Explanation:** VLAN tagging identifies traffic segments on switches. NAT translates addresses, VPN tunnels traffic, MPLS labels packets for routing.
+
+71. A router is configured to only allow return traffic for outbound connections. Which stateful feature is this?
+- A. Packet filtering
+- B. Application proxy
+- C. Stateful inspection
+- D. ACL
+
+**Answer: C**
+**Explanation:** Stateful inspection tracks sessions and allows return traffic. Packet filters are stateless, proxies terminate sessions, ACLs define rules.
+
+72. Which technique isolates user traffic in wireless networks to prevent client-to-client attacks?
+- A. SSID hiding
+- B. Client isolation
+- C. MAC filtering
+- D. Rogue detection
+
+**Answer: B**
+**Explanation:** Client isolation blocks peer-to-peer communications within an AP. SSID hiding conceals broadcast, MAC filtering restricts devices, rogue detection finds unauthorized APs.
+
+73. Which layer of the OSI model handles fragmentation and reassembly of packets?
+- A. Network
+- B. Transport
+- C. Data Link
+- D. Session
+
+**Answer: A**
+**Explanation:** The Network layer (IP) fragments and reassembles packets. Transport handles end-to-end delivery, Data Link handles frames, Session manages sessions.
+
+74. Which tunneling protocol encapsulates PPP frames inside IP packets?
+- A. GRE
+- B. L2TP
+- C. IPSec
+- D. SSL
+
+**Answer: B**
+**Explanation:** L2TP tunnels PPP over IP. GRE is generic routing encapsulation, IPSec secures traffic, SSL secures sessions.
+
+75. Which IAM mechanism maps roles and permissions to job functions rather than individuals?
+- A. RBAC
+- B. ABAC
+- C. DAC
+- D. MAC
+
+**Answer: A**
+**Explanation:** Role-Based Access Control assigns rights to roles. ABAC uses attributes, DAC is owner-based, MAC is label-based.
+
+76. Which process automatically removes user accounts for employees who leave the company?
+- A. Provisioning
+- B. Deprovisioning
+- C. Role mining
+- D. Federation
+
+**Answer: B**
+**Explanation:** Deprovisioning revokes access when users depart. Provisioning grants, role mining analyzes roles, federation shares identities.
+
+77. A company uses OAuth for delegated access. Which party issues access tokens?
+- A. Resource server
+- B. Authorization server
+- C. Client
+- D. Identity provider
+
+**Answer: B**
+**Explanation:** The authorization server authenticates and issues tokens. The resource server validates tokens, clients request, and IdP may back the AS.
+
+78. Which control prevents an insider from approving their own high-risk transaction?
+- A. Least privilege
+- B. Separation of duties
+- C. Dual control
+- D. Job rotation
+
+**Answer: B**
+**Explanation:** Separation of duties ensures no single person executes conflicting tasks. Dual control requires two people jointly, least privilege limits rights, rotation swaps duties.
+
+79. Which mechanism provides single sign-on by passing Kerberos tickets between systems?
+- A. LDAP
+- B. SAML
+- C. Kerberos delegation
+- D. OAuth
+
+**Answer: C**
+**Explanation:** Kerberos delegation forwards tickets to allow services to act on behalf of users. LDAP is a directory, SAML is web SSO, OAuth delegated authorization.
+
+80. What concept ensures that users can only perform actions allowed by their assigned roles?
+- A. Role engineering
+- B. Access certification
+- C. Policy governance
+- D. Role enforcement
+
+**Answer: D**
+**Explanation:** Role enforcement applies role definitions to access decisions. Role engineering designs roles, certification reviews them, policy governance defines them.
+
+81. Which testing method uses known threat profiles to validate security controls?
+- A. Fuzzing
+- B. Vulnerability scanning
+- C. Penetration testing
+- D. Security audit
+
+**Answer: C**
+**Explanation:** Penetration testing simulates attacker techniques. Scans find known CVEs, fuzzing injects malformed inputs, audits check procedures.
+
+82. During an audit, which artifact proves that code changes follow an approved process?
+- A. Change log
+- B. Network diagram
+- C. Security policy
+- D. Data flow diagram
+
+**Answer: A**
+**Explanation:** Change logs record requested and approved modifications. Diagrams map architecture, policies set rules, DFDs show data movement.
+
+83. Which test validates security by observing application behavior under load?
+- A. Stress testing
+- B. Unit testing
+- C. Integration testing
+- D. Regression testing
+
+**Answer: A**
+**Explanation:** Stress testing evaluates performance limits and stability. Unit tests check functions, integration tests modules, regression tests for new bugs.
+
+84. An auditor needs to confirm that encryption algorithms in use are FIPS 140-2 validated. Which document provides definitive proof?
+- A. Vendor data sheet
+- B. FIPS certificate
+- C. Configuration baseline
+- D. Encryption policy
+
+**Answer: B**
+**Explanation:** A FIPS certificate lists validated modules. Datasheets may claim compliance, baselines configure settings, policies mandate usage.
+
+85. Which tool dynamically analyzes a running web application for security flaws?
+- A. Static code analyzer
+- B. Interactive application security testing
+- C. Web vulnerability scanner
+- D. Packet sniffer
+
+**Answer: B**
+**Explanation:** IAST instruments the app at runtime to find vulnerabilities. SAST scans source code, scanners probe endpoints, sniffers capture packets.
+
+86. Which metric best measures time to detect a breach?
+- A. MTTD
+- B. MTTR
+- C. MTBF
+- D. RPO
+
+**Answer: A**
+**Explanation:** Mean Time To Detect (MTTD) tracks breach detection speed. MTTR measures recovery, MTBF time between failures, RPO data loss tolerance.
+
+87. Which process coordinates all activities to handle security incidents effectively?
+- A. Incident management
+- B. Problem management
+- C. Change management
+- D. Service level management
+
+**Answer: A**
+**Explanation:** Incident management focuses on detection, analysis, and response. Problem management addresses root causes, change management authorizes modifications, SLM tracks service metrics.
+
+88. Which log source is most useful for tracing an attacker’s lateral movement across Windows hosts?
+- A. DNS logs
+- B. Security event logs
+- C. NetFlow
+- D. Web proxy logs
+
+**Answer: B**
+**Explanation:** Security event logs record login events and privilege escalations. DNS logs show name resolutions, NetFlow shows traffic, proxy logs show web access.
+
+89. Which backup strategy ensures minimal data loss but requires the most storage?
+- A. Full daily backups
+- B. Incremental backups
+- C. Differential backups
+- D. Snapshot backups
+
+**Answer: A**
+**Explanation:** Daily full backups capture all data, minimizing loss but consuming maximum storage. Incremental and differential save space, snapshots vary by implementation.
+
+90. Which control reduces the risk of malware by executing applications in isolated environments?
+- A. Sandbox
+- B. Antivirus
+- C. NIPS
+- D. WAF
+
+**Answer: A**
+**Explanation:** Sandboxes run code in containment, preventing host infection. AV detects known malware, NIPS blocks network attacks, WAF protects web applications.
+
+91. A SOC analyst correlates user behavior analytics with firewall logs. This is an example of which SOC function?
+- A. Detection
+- B. Prevention
+- C. Containment
+- D. Eradication
+
+**Answer: A**
+**Explanation:** Correlation supports threat detection by identifying anomalies. Prevention blocks attacks, containment limits spread, eradication removes threats.
+
+92. Which process aligns IT operations with business continuity objectives?
+- A. IT service continuity management
+- B. Configuration management
+- C. Release management
+- D. Capacity planning
+
+**Answer: A**
+**Explanation:** ITSCM plans recovery of IT services per BCP. Configuration tracks assets, release manages deployments, capacity ensures performance.
+
+93. During secure coding, which practice prevents improper use of untrusted redirects and forwards?
+- A. Input validation
+- B. Output encoding
+- C. URL whitelisting
+- D. CSRF tokens
+
+**Answer: C**
+**Explanation:** URL whitelisting allows redirects only to approved domains. Input validation sanitizes data, output encoding escapes outputs, CSRF tokens prevent forgery.
+
+94. Which technique tests software by providing random inputs to find crashes?
+- A. Fuzzing
+- B. Static analysis
+- C. Penetration testing
+- D. Code review
+
+**Answer: A**
+**Explanation:** Fuzzing injects malformed or unexpected data to reveal vulnerabilities. Static analysis reviews code, pen tests exploit, code reviews inspect manually.
+
+95. Which practice embeds security checks directly into automated build processes?
+- A. DevSecOps
+- B. Waterfall
+- C. V-Model
+- D. Rapid prototyping
+
+**Answer: A**
+**Explanation:** DevSecOps integrates security into continuous integration/continuous delivery pipelines. The other models are development life cycles without built-in security.
+
+96. Which artifact captures threat sources, vectors, and potential impacts for a new application?
+- A. Threat model
+- B. Data flow diagram
+- C. Entity relationship diagram
+- D. Class diagram
+
+**Answer: A**
+**Explanation:** A threat model documents attackers, entry points, and impacts. DFDs map data movement, ERDs show database structure, class diagrams show code objects.
+
+97. In a continuous delivery pipeline, which control prevents deployment if critical security tests fail?
+- A. Manual gate
+- B. Automated policy check
+- C. QA sign-off
+- D. Change advisory board
+
+**Answer: B**
+**Explanation:** Automated policy checks enforce security gates without human intervention. Manual gates and CABs introduce delays, QA sign-off is manual.
+
+98. Which practice obfuscates code paths to hinder reverse engineering?
+- A. Code minification
+- B. Data encryption
+- C. Control-flow flattening
+- D. Input validation
+
+**Answer: C**
+**Explanation:** Control-flow flattening restructures code logic to confuse decompilers. Minification reduces size, encryption protects data, validation checks inputs.
+
+99. Which license scanning tool checks open-source components for security vulnerabilities and license issues?
+- A. OWASP ZAP
+- B. SonarQube
+- C. Black Duck
+- D. Metasploit
+
+**Answer: C**
+**Explanation:** Black Duck scans dependencies for vulnerabilities and license compliance. ZAP is a web scanner, SonarQube analyzes code quality, Metasploit is an exploitation framework.
+
+100. Which secure coding guideline helps prevent improper use of cryptographic functions?
+- A. Always generate fresh IVs
+- B. Hard-code keys for consistency
+- C. Use deprecated libraries for compatibility
+- D. Store keys alongside code
+
+**Answer: A**
+**Explanation:** Fresh initialization vectors ensure ciphertext uniqueness. Hard-coding or storing keys in code is insecure, and deprecated libraries may have flaws.
+
+101. Which business continuity metric defines the maximum tolerable downtime for a critical process?
+- A. RTO
+- B. RPO
+- C. MTTD
+- D. MTTR
+
+**Answer: A**
+**Explanation:** Recovery Time Objective (RTO) specifies how long a process can be unavailable before unacceptable impact. RPO covers data loss tolerance; MTTD/MTTR measure detection and repair times.
+
+102. Which document articulates the organization’s stance on how much risk it is willing to accept?
+- A. Risk register
+- B. Risk appetite statement
+- C. Risk treatment plan
+- D. Business impact analysis
+
+**Answer: B**
+**Explanation:** A risk appetite statement defines acceptable risk levels. The register logs identified risks, treatment plans describe controls, and BIAs assess process impacts.
+
+103. When labeling data that may be shared publicly without restriction, which classification applies?
+- A. Public
+- B. Confidential
+- C. Restricted
+- D. Sensitive
+
+**Answer: A**
+**Explanation:** “Public” data is approved for unrestricted dissemination. Confidential and restricted require controls, and “sensitive” implies harm if disclosed.
+
+104. Which control ensures media is completely destroyed at end of life?
+- A. Sanitization
+- B. Archiving
+- C. Retention policy
+- D. Encryption
+
+**Answer: A**
+**Explanation:** Sanitization (e.g., wiping, degaussing) renders media unrecoverable. Archiving preserves data, retention policies schedule deletion, encryption protects contents only if keys exist.
+
+105. Under ISO 27001, which clause requires management review of the Information Security Management System?
+- A. Context of the organization
+- B. Leadership
+- C. Performance evaluation
+- D. Improvement
+
+**Answer: C**
+**Explanation:** Clause on “Performance Evaluation” mandates management reviews to ensure the ISMS remains suitable and effective.
+
+106. Which asset-security process assigns owners for information resources?
+- A. Classification
+- B. Inventory
+- C. Custodianship
+- D. Ownership assignment
+
+**Answer: D**
+**Explanation:** Ownership assignment officially designates individuals responsible for information assets. Classification labels sensitivity; custodians handle day-to-day care; inventory tracks assets.
+
+107. A company encrypts sensitive files in transit and at rest. Which principle is it enforcing?
+- A. Data minimization
+- B. Defense in depth
+- C. Confidentiality
+- D. Non-repudiation
+
+**Answer: C**
+**Explanation:** Encryption protects confidentiality by preventing unauthorized access. Data minimization limits collection, defense in depth layers controls, non-repudiation prevents denial of actions.
+
+108. Which technique verifies that all required controls are implemented according to an approved baseline?
+- A. Penetration testing
+- B. Configuration audit
+- C. Vulnerability scanning
+- D. Red teaming
+
+**Answer: B**
+**Explanation:** A configuration audit checks system settings against a documented baseline. Scans and pen tests identify vulnerabilities, red teams simulate adversaries.
+
+109. What is the primary purpose of asset classification?
+- A. To determine backup frequency
+- B. To guide access controls and protection measures
+- C. To calculate depreciation
+- D. To schedule software updates
+
+**Answer: B**
+**Explanation:** Classification informs how data and assets must be protected. Backup schedules, depreciation, and patch cycles are separate processes.
+
+110. Which label applies to data that must be retained for legal reasons but is not sensitive?
+- A. Public
+- B. Regulatory
+- C. Restricted
+- D. Confidential
+
+**Answer: B**
+**Explanation:** “Regulatory” denotes retention by law, regardless of sensitivity. Public is openly shareable; restricted/confidential require protective controls.
+
+111. Which policy element prescribes how long to keep different categories of data?
+- A. Classification policy
+- B. Retention schedule
+- C. Access control policy
+- D. Handling procedure
+
+**Answer: B**
+**Explanation:** A retention schedule defines retention and disposal timelines. Classification sets labels, access control governs who can see data, handling procedures describe operations.
+
+112. Which mechanism ceases cloud storage of data after expiration of a retention period?
+- A. Automated lifecycle management
+- B. Manual deletion
+- C. Data masking
+- D. Data escrow
+
+**Answer: A**
+**Explanation:** Automated lifecycle policies apply rules to migrate or delete data based on age. Manual deletion is error-prone; masking obfuscates data; escrow holds data externally.
+
+113. To assure data at rest on removable media is protected, which control is most effective?
+- A. Labeling
+- B. Encryption
+- C. Access logging
+- D. Tamper-evident seals
+
+**Answer: B**
+**Explanation:** Encryption ensures that even if media is lost, contents remain unreadable without keys. Labeling and seals aid handling; logging tracks usage.
+
+114. Which pattern implements defense in depth by layering different security technologies?
+- A. Single firewall
+- B. Demilitarized zone
+- C. Honeypot
+- D. Dual-homed host
+
+**Answer: B**
+**Explanation:** A DMZ adds an external layer between Internet and internal networks, complementing internal firewalls for layered defense.
+
+115. Which architectural model enforces separate execution domains for untrusted and trusted code?
+- A. Monolithic kernel
+- B. Microkernel
+- C. Multi-tier
+- D. Client-server
+
+**Answer: B**
+**Explanation:** Microkernels keep minimal code in kernel mode, isolating services to reduce trusted computing base. Monolithic kernels run more services in one domain.
+
+116. Which hardware device accelerates SSL/TLS encryption to offload servers?
+- A. Load balancer
+- B. SSL accelerator
+- C. Intrusion prevention system
+- D. Hardware security module
+
+**Answer: B**
+**Explanation:** SSL accelerators handle cryptographic operations, reducing CPU load on application servers. HSMs store keys but don’t offload bulk SSL/TLS.
+
+117. Which model controls data flow based on security labels and clearances?
+- A. Bell-LaPadula
+- B. Biba
+- C. Clark-Wilson
+- D. Brewer-Nash
+
+**Answer: A**
+**Explanation:** Bell-LaPadula enforces “no read up/no write down” rules for confidentiality using labels.
+
+118. What is the primary benefit of hardware segmentation in network design?
+- A. Easier management
+- B. Lower cost
+- C. Reduced latency
+- D. Enhanced isolation
+
+**Answer: D**
+**Explanation:** Hardware segmentation (e.g., separate switches) physically isolates networks, limiting broadcast domains and improving security boundaries.
+
+119. Which protocol secures BGP route updates between peers?
+- A. IPsec
+- B. TLS
+- C. SSH
+- D. BGPsec
+
+**Answer: D**
+**Explanation:** BGPsec adds path validation to BGP via digital signatures. IPsec or TLS can secure sessions but don’t provide route authenticity.
+
+120. Which technology detects anomalies in encrypted traffic without decryption?
+- A. IDS signature matching
+- B. Traffic flow analysis
+- C. Deep packet inspection
+- D. SSL interception
+
+**Answer: B**
+**Explanation:** Flow analysis examines metadata (packet sizes, timing) to spot anomalies in encrypted streams. DPI requires decryption; SSL interception decrypts traffic.
+
+121. Which NAT type allows inbound connections only if an internal host initiated the session?
+- A. Static NAT
+- B. Dynamic NAT
+- C. Port Address Translation (PAT)
+- D. NAT with stateful inspection
+
+**Answer: D**
+**Explanation:** Stateful NAT (often PAT) tracks sessions and permits return traffic. Static/dynamic NAT map addresses but don’t enforce session state.
+
+122. Which wireless encryption mode uses ephemeral keys for each session?
+- A. WEP
+- B. WPA2-PSK
+- C. WPA3
+- D. TKIP
+
+**Answer: C**
+**Explanation:** WPA3 mandates individualized data encryption with unique session keys. WEP/TKIP use static or predictable keys; WPA2-PSK shares a pre-shared key.
+
+123. In a zero-trust network, which component verifies every request before granting access?  
+- A. VPN concentrator  
+- B. Firewall  
+- C. Policy enforcement point  
+- D. Intrusion detection system  
+
+**Answer: C**
+**Explanation:** Policy enforcement points enforce dynamic access decisions based on continuous verification in zero-trust architectures.
+
+124. Which protocol prevents ARP spoofing by validating MAC-to-IP bindings?
+- A. DHCP snooping
+- B. RADIUS
+- C. Dynamic ARP Inspection
+- D. Port security
+
+**Answer: C**
+**Explanation:** Dynamic ARP Inspection checks ARP packets against a trusted DHCP snooping table to block spoofing.
+
+125. Which concept splits an IP network into multiple broadcast domains?
+- A. VLAN
+- B. Subnetting
+- C. NAT
+- D. VPN
+
+**Answer: B**
+**Explanation:** Subnetting divides an IP address space into smaller networks. VLANs segment at Layer 2; NAT translates addresses; VPN secures traffic.
+
+126. Which technology mitigates DDoS by distributing traffic across hundreds of servers?
+- A. IDS
+- B. CDN
+- C. WAF
+- D. Proxy
+
+**Answer: B**
+**Explanation:** Content Delivery Networks absorb and disperse large traffic volumes, reducing the impact of DDoS attacks.
+
+127. Which AAA component provides the directory for user credentials?
+- A. Authentication
+- B. Authorization
+- C. Accounting
+- D. Directory service
+
+**Answer: A**
+**Explanation:** Authentication verifies credentials against a directory (e.g., LDAP). Authorization controls access; accounting logs activities.
+
+128. Which IAM process analyzes user entitlements to suggest role definitions?
+- A. Role mining
+- B. Provisioning
+- C. Certification
+- D. Federation
+
+**Answer: A**
+**Explanation:** Role mining examines existing permissions to identify common patterns and propose roles. Provisioning creates accounts; certification reviews access; federation shares identities.
+
+129. Which multi-factor authentication factor is “something you are”?
+- A. Password
+- B. Token
+- C. Fingerprint
+- D. Smart card
+
+**Answer: C**
+**Explanation:** Fingerprint (inherent) is a biometric factor. Password is knowledge, tokens and smart cards are possession factors.
+
+130. Which protocol enables single sign-on across web applications in enterprise environments?
+- A. RADIUS
+- B. Kerberos
+- C. SAML
+- D. TACACS+
+
+**Answer: C**
+**Explanation:** SAML is used for federated web SSO. Kerberos is for network authentication, RADIUS/TACACS+ for network access control.
+
+131. Which access control model enforces grants based solely on the object owner’s discretion?
+- A. DAC
+- B. MAC
+- C. RBAC
+- D. ABAC
+
+**Answer: A**
+**Explanation:** Discretionary Access Control (DAC) lets owners set permissions. MAC uses labels, RBAC roles, ABAC attributes.
+
+132. Which directory attribute uniquely identifies an entry across renames and moves?
+- A. CN
+- B. GUID
+- C. DN
+- D. OU
+
+**Answer: B**
+**Explanation:** A GUID (globally unique identifier) remains constant even if distinguished names change. CN/DN reflect names/locations.
+
+133. Which practice ensures temporary accounts are revoked automatically after a set period?
+- A. Time-based provisioning
+- B. Periodic review
+- C. Just-in-time access
+- D. Role-based assignment
+
+**Answer: A**
+**Explanation:** Time-based provisioning grants accounts with built-in expiration. Periodic reviews are manual; JIT issues on demand; RBAC maps roles to users.
+
+134. Which control type logs user actions for future analysis?
+- A. Preventive
+- B. Detective
+- C. Corrective
+- D. Compensating
+
+**Answer: B**
+**Explanation:** Detective controls (e.g., audit logs) record events for review. Preventive block events; corrective restore systems; compensating substitute primary controls.
+
+135. Which assessment method attempts exploits without prior knowledge of internal workings?
+- A. Black-box penetration test
+- B. White-box code review
+- C. Vulnerability scan
+- D. Configuration audit
+
+**Answer: A**
+**Explanation:** Black-box tests simulate external attackers with no internal knowledge. White-box uses full access; scans detect CVEs; audits check configs.
+
+136. Which testing technique replay real user transactions to identify performance bottlenecks?
+- A. Load testing
+- B. Regression testing
+- C. Unit testing
+- D. Fuzz testing
+
+**Answer: A**
+**Explanation:** Load testing simulates user volumes to reveal performance issues. Regression tests check functionality, units test code blocks, fuzz tests for input flaws.
+
+137. During a vulnerability assessment, which step involves verifying that identified weaknesses are real?
+- A. False-positive review
+- B. Exploitation
+- C. Reporting
+- D. Remediation
+
+**Answer: A**
+**Explanation:** Reviewing false positives filters out non-issues before reporting. Exploitation is part of penetration testing; remediation fixes issues.
+
+138. Which metric indicates average time to restore service after an incident?
+- A. MTTR
+- B. MTTD
+- C. MTTF
+- D. RPO
+
+**Answer: A**
+**Explanation:** Mean Time To Repair/Recovery (MTTR) measures recovery speed. MTTD tracks detection; MTTF time to failure; RPO data loss tolerance.
+
+139. Which document provides proof of control implementation for an external audit?
+- A. Policy
+- B. Evidence package
+- C. Threat model
+- D. Data flow diagram
+
+**Answer: B**
+**Explanation:** An evidence package compiles screenshots, logs, and reports to demonstrate controls. Policies state requirements; models/diagrams illustrate design.
+
+140. Which test uses automated tools to check code for insecure function calls?
+- A. SAST
+- B. DAST
+- C. RAST
+- D. IAST
+
+**Answer: A**
+**Explanation:** Static Application Security Testing (SAST) analyzes source code for vulnerabilities. DAST tests running apps; RAST/runtime; IAST is interactive.
+
+141. Which process centralizes log collection from multiple security devices?
+- A. SIEM deployment
+- B. VPN configuration
+- C. NAC enforcement
+- D. Patch management
+
+**Answer: A**
+**Explanation:** SIEM aggregates, correlates, and stores logs from diverse sources for analysis. The others manage access, network, and patches.
+
+142. What is the primary goal of change management in security operations?
+- A. To document all network diagrams
+- B. To ensure that changes are authorized and tested
+- C. To detect intrusions
+- D. To enforce password complexity
+
+**Answer: B**
+**Explanation:** Change management ensures that modifications are planned, approved, and tested before implementation to prevent unintended disruptions.
+
+143. Which backup method reduces recovery time by keeping an up-to-date replica online?
+- A. Continuous data protection
+- B. Differential backup
+- C. Incremental backup
+- D. Full backup
+
+**Answer: A**
+**Explanation:** Continuous Data Protection captures every change in real time, offering near-instant recovery. Differential/incremental depend on previous backups.
+
+144. Which incident-response phase involves gathering forensic evidence?
+- A. Identification
+- B. Containment
+- C. Eradication
+- D. Preservation
+
+**Answer: D**
+**Explanation:** Evidence preservation (often part of containment) ensures forensic artifacts remain intact for analysis and legal proceedings.
+
+145. Which tool automates detection of malicious endpoints based on behavior analytics?
+- A. EDR
+- B. NIPS
+- C. DLP
+- D. WAF
+
+**Answer: A**
+**Explanation:** Endpoint Detection and Response (EDR) platforms monitor and analyze endpoint behaviors to spot threats. NIPS inspects network, DLP protects data, WAF filters web traffic.
+
+146. Which practice centralizes security event priority based on business impact?
+- A. Risk-based alerting
+- B. Asset discovery
+- C. VLAN segmentation
+- D. Role-based access
+
+**Answer: A**
+**Explanation:** Risk-based alerting correlates events with asset criticality and threat severity to focus on high-impact incidents.
+
+147. Which operation ensures anti-malware signatures are current on all hosts?
+- A. Patch management
+- B. Antivirus updates
+- C. Vulnerability scanning
+- D. Configuration baselining
+
+**Answer: B**
+**Explanation:** Regular antivirus signature updates keep detection engines current. Patch management updates software; scans detect vulnerabilities; baselining enforces settings.
+
+148. Which SDLC phase integrates security requirements into user stories and acceptance criteria?
+- A. Requirements gathering
+- B. Design
+- C. Implementation
+- D. Testing
+
+**Answer: A**
+**Explanation:** Capturing security in requirements ensures controls are planned from the start. Design/implementation/test phases then realize and verify them.
+
+149. Which secure-development practice involves reviewing code as it’s written in real time?
+- A. Pair programming
+- B. Code freeze
+- C. Continuous deployment
+- D. Waterfall model
+
+**Answer: A**
+**Explanation:** Pair programming has two developers collaborate, enabling immediate code review. Code freeze halts changes; CI/CD automates builds; waterfall is sequential.
+
+150. Which practice automatically runs static analysis and security tests on each code commit?
+- A. DevSecOps pipeline
+- B. Manual QA
+- C. Waterfall delivery
+- D. Ad hoc testing
+
+**Answer: A**
+**Explanation:** A DevSecOps pipeline embeds automated security gates (SAST, dependency checks) into the CI/CD process, ensuring early defect detection.
+
+151. Which governance framework focuses on linking IT controls to business objectives and stakeholder needs?
+- A. COSO
+- B. COBIT
+- C. ITIL
+- D. ISO 27001
+
+**Answer: B**
+**Explanation:** COBIT maps IT processes and controls to business goals. COSO addresses enterprise risk broadly, ITIL focuses on IT service management, and ISO 27001 specifies an ISMS.
+
+152. An organization wants to demonstrate due care and due diligence. Which activity best supports due diligence?  
+- A. Issuing a security policy  
+- B. Conducting periodic risk assessments  
+- C. Purchasing insurance  
+- D. Accepting residual risk
+
+**Answer: B**
+**Explanation:** Due diligence involves ongoing assessment and management of risk. A policy shows due care, insurance is risk transference, and risk acceptance acknowledges but doesn’t manage risk.
+
+153. Which asset valuation method estimates replacement cost minus depreciation?
+- A. Intrinsic value
+- B. Market value
+- C. Book value
+- D. Economic value
+
+**Answer: C**
+**Explanation:** Book value reflects historical cost adjusted for depreciation. Market value uses current sale price; intrinsic and economic values consider intangible benefits.
+
+154. Which technique helps identify single points of failure in a business process?
+- A. Fault tree analysis
+- B. SWOT analysis
+- C. Brainstorming
+- D. Monte Carlo simulation
+
+**Answer: A**
+**Explanation:** Fault tree analysis traces failure conditions and can reveal single-point failures. SWOT explores strengths/weaknesses, brainstorming generates ideas, Monte Carlo simulates probabilities.
+
+155. Which clause in a Service Level Agreement defines the provider’s responsibility for security incidents?
+- A. Scope of services
+- B. Security requirements
+- C. Termination terms
+- D. Confidentiality clause
+
+**Answer: B**
+**Explanation:** The security requirements section specifies incident response obligations. Scope outlines services, termination covers end-of-contract, confidentiality addresses data secrecy.
+
+156. A merger requires integration of two corporate networks under different security policies. What is the first step?
+- A. Implement unified firewall rules
+- B. Conduct a gap analysis
+- C. Train staff on new policies
+- D. Deploy SIEM
+
+**Answer: B**
+**Explanation:** A gap analysis identifies differences in controls and policies, guiding integration. Jumping to technical solutions before analysis causes conflicts; training and SIEM come later.
+
+157. Which is the primary purpose of a business impact analysis?
+- A. Identify vulnerabilities
+- B. Determine critical processes and recovery priorities
+- C. Evaluate disaster scenarios
+- D. Test recovery procedures
+
+**Answer: B**
+**Explanation:** BIA determines process criticality and acceptable downtime. Vulnerability assessments find weaknesses, scenario evaluation informs planning, tests validate procedures.
+
+158. In risk management, what does residual risk represent?
+- A. Risk before controls
+- B. Risk transferred to third parties
+- C. Risk remaining after controls
+- D. Risk that is accepted
+
+**Answer: C**
+**Explanation:** Residual risk is what remains once mitigation is applied. Inherent risk is before controls; transference shifts risk; acceptance is a treatment decision.
+
+159. Which key documentation is required for formal system accreditation?
+- A. Network topology diagrams
+- B. Security test and evaluation report
+- C. Data classification matrix
+- D. Asset inventory
+
+**Answer: B**
+**Explanation:** The security test and evaluation (ST&E) report provides evidence of control effectiveness for accreditation. Diagrams, classification, and inventory support the process but are not sufficient alone.
+
+160. Which action best demonstrates risk avoidance?
+- A. Purchasing cybersecurity insurance
+- B. Discontinuing a risky service
+- C. Implementing encryption
+- D. Accepting residual risk
+
+**Answer: B**
+**Explanation:** Risk avoidance eliminates the activity that generates risk. Insurance transfers, encryption mitigates, and acceptance retains the risk.
+
+161. Which classification label applies when data loss would cause severe legal penalties?
+- A. Confidential
+- B. Top secret
+- C. Restricted
+- D. Regulated
+
+**Answer: C**
+**Explanation:** Restricted data demands stringent controls to avoid severe consequences. “Top secret” is government-specific, confidential covers moderate sensitivity, regulated denotes retention requirements.
+
+162. Which control places unstructured data into a managed repository with policy enforcement?
+- A. Data Loss Prevention
+- B. Content management system
+- C. Encryption gateway
+- D. File-level auditing
+
+**Answer: B**
+**Explanation:** A CMS provides versioning, access control, and workflow for unstructured data. DLP identifies and blocks policy violations, encryption secures transit/storage, auditing logs activity.
+
+163. Which model ensures that two incompatible roles cannot be assigned to the same user?
+- A. Chinese Wall
+- B. Separation of duties
+- C. Clark-Wilson
+- D. Bell-LaPadula
+
+**Answer: A**
+**Explanation:** The Chinese Wall model prevents conflicts by forbidding access to competing entities. Separation of duties splits tasks across users, Clark-Wilson enforces transaction integrity, Bell-LaPadula handles confidentiality.
+
+164. Which hardware feature provides a secure enclave for code execution and data storage?
+- A. UEFI Secure Boot
+- B. Hardware Security Module
+- C. Virtual Trusted Platform Module
+- D. Hypervisor-based isolation
+
+**Answer: B**
+**Explanation:** HSMs offer tamper-resistant key storage and secure processing. Secure boot verifies firmware, vTPM is a virtualized TPM, hypervisors isolate VMs but are not dedicated secure enclaves.
+
+165. Which principle advocates placing security controls at multiple layers?
+- A. Least privilege
+- B. Defense in depth
+- C. Fail-safe defaults
+- D. Separation of duties
+
+**Answer: B**
+**Explanation:** Defense in depth uses overlapping controls to mitigate failure of any single control. Least privilege restricts rights, fail-safe defaults block by default, separation splits tasks.
+
+166. Which protocol provides mutual authentication and integrity for IP packets?
+- A. SSL
+- B. IPsec
+- C. TLS
+- D. SSH
+
+**Answer: B**
+**Explanation:** IPsec Authenticaton Header or ESP offers integrity and optional confidentiality at the IP layer. SSL/TLS work at higher layers, SSH secures sessions.
+
+167. When designing a DEMILITARIZED ZONE, which component should be placed in the DMZ?
+- A. Internal file servers
+- B. Web servers accessible to the Internet
+- C. Domain controllers
+- D. Backup repositories
+
+**Answer: B**
+**Explanation:** Internet-facing web servers reside in the DMZ to isolate them from internal resources. Internal servers and domain controllers belong within the trusted network.
+
+168. Which device buffers and inspects encrypted web traffic for threats before forwarding it encrypted?
+- A. SSL VPN
+- B. SSL/TLS forward proxy
+- C. SSL accelerator
+- D. Transparent TCP proxy
+
+**Answer: B**
+**Explanation:** An SSL/TLS forward proxy terminates and re-establishes SSL sessions, applying inspection in between. Accelerators offload crypto, VPNs tunnel, transparent proxies may not handle SSL.
+
+169. Which technique maps internal network addresses to external public IPs?
+- A. PAT
+- B. VLAN
+- C. Proxy
+- D. VPN
+
+**Answer: A**
+**Explanation:** Port Address Translation multiplexes private IPs to a single public IP by varying port numbers. VLANs segment, proxies mediate at the application layer, VPNs tunnel traffic.
+
+170. Which architecture enforces per-session dynamic policies based on continuous authentication?
+- A. Zero trust
+- B. Traditional perimeter
+- C. Mesh network
+- D. Hub-and-spoke
+
+**Answer: A**
+**Explanation:** Zero trust continuously authenticates and authorizes each session and transaction. Traditional perimeters rely on a one-time check, mesh and hub-and-spoke describe topologies.
+
+171. Which wireless protocol authenticates devices using certificates rather than shared keys?
+- A. WEP
+- B. WPA2-Enterprise
+- C. WPA2-PSK
+- D. WPS
+
+**Answer: B**
+**Explanation:** WPA2-Enterprise uses 802.1X with EAP-TLS for certificate-based authentication. PSK uses a shared password, WEP is insecure, WPS is a convenience feature.
+
+172. Which concept underlies VLAN hopping attacks?
+- A. MAC flooding
+- B. Double tagging
+- C. ARP spoofing
+- D. DHCP exhaustion
+
+**Answer: B**
+**Explanation:** Double tagging uses two VLAN tags to trick switches into forwarding traffic to unintended VLANs. MAC flooding exhausts CAM tables, ARP spoofing poisons ARP, DHCP exhaustion floods addresses.
+
+173. Which directory service uses a hierarchical naming structure and LDAP protocol?
+- A. Active Directory
+- B. Kerberos
+- C. RADIUS
+- D. TACACS+
+
+**Answer: A**
+**Explanation:** AD supports LDAP for queries against its tree of containers and objects. Kerberos handles tickets, RADIUS/TACACS+ manage network access authentication.
+
+174. Which identity federation standard uses JSON and OAuth tokens for web APIs?
+- A. SAML
+- B. OpenID Connect
+- C. LDAP
+- D. Kerberos
+
+**Answer: B**
+**Explanation:** OpenID Connect builds on OAuth 2.0, using JSON Web Tokens for federated identity. SAML uses XML assertions, LDAP is a directory access protocol, Kerberos uses tickets.
+
+175. Which access control method relies on centrally managed policies evaluated at runtime?
+- A. RBAC
+- B. MAC
+- C. ABAC
+- D. DAC
+
+**Answer: C**
+**Explanation:** ABAC evaluates attributes and policies dynamically. RBAC relies on static role-permission assignments, MAC uses labels, DAC uses owner discretion.
+
+176. Which control automates locking out accounts after multiple failed login attempts?
+- A. Threshold monitoring
+- B. Account lockout
+- C. CAPTCHA
+- D. Session expiration
+
+**Answer: B**
+**Explanation:** Account lockout stops brute-force attempts by disabling accounts after a set number of failures. Threshold monitoring raises alerts, CAPTCHA tests human users, session expiration ends sessions.
+
+177. Which authentication factor category includes smart cards?
+- A. Knowledge
+- B. Possession
+- C. Inherence
+- D. Location
+
+**Answer: B**
+**Explanation:** Smart cards are “something you have.” Knowledge is passwords, inherence is biometrics, location is context-based.
+
+178. Which assessment method uses live adversaries over an extended period to test detection and response?
+- A. Red teaming
+- B. Blue teaming
+- C. Penetration testing
+- D. Vulnerability scanning
+
+**Answer: A**
+**Explanation:** Red teams simulate sophisticated attacks continuously, testing people, processes, and technology. Pen tests are shorter and focused, blue teams defend, scans identify vulnerabilities.
+
+179. Which artifact demonstrates that backup restoration procedures were tested successfully?
+- A. Backup logs
+- B. Test reports
+- C. Policy document
+- D. Configuration file
+
+**Answer: B**
+**Explanation:** Test reports record the outcome of restoration exercises. Logs show actions, policies describe processes, configuration files contain settings.
+
+180. Which type of backup mirrors changes in real time, capturing every write operation?
+- A. Continuous data protection
+- B. Incremental backup
+- C. Differential backup
+- D. Snapshots
+
+**Answer: A**
+**Explanation:** Continuous data protection logs every change as it occurs. Incremental/differential depend on schedules, snapshots capture point-in-time states.
+
+181. Which incident-response function focuses on determining the root cause of an event?
+- A. Identification
+- B. Containment
+- C. Eradication
+- D. Root cause analysis
+
+**Answer: D**
+**Explanation:** Root cause analysis investigates why an incident occurred to prevent recurrence. Other phases address detection, isolation, and cleanup.
+
+182. Which SIEM feature correlates events across time and systems to identify attack patterns?
+- A. Log aggregation
+- B. Correlation rules
+- C. Dashboards
+- D. Forensic analysis
+
+**Answer: B**
+**Explanation:** Correlation rules link disparate log events to reveal complex multi-step attacks. Aggregation collects logs, dashboards display data, forensic tools analyze post-fact.
+
+183. Which operational control mandates periodic review of user accounts and permissions?
+- A. Access certification
+- B. Separation of duties
+- C. Job rotation
+- D. Awareness training
+
+**Answer: A**
+**Explanation:** Access certification (recertification) ensures that entitlements are still appropriate. Separation splits tasks, rotation swaps roles, training educates.
+
+184. Which tool automates vulnerability scanning and provides prioritized remediation guidance?
+- A. Nessus
+- B. Metasploit
+- C. Nmap
+- D. Wireshark
+
+**Answer: A**
+**Explanation:** Nessus scans for known vulnerabilities and offers remediation steps. Metasploit exploits vulnerabilities, Nmap maps networks, Wireshark captures traffic.
+
+185. Which methodology embeds security reviews into sprint ceremonies in Agile?
+- A. Scrum
+- B. Kanban
+- C. DevSecOps
+- D. Waterfall
+
+**Answer: C**
+**Explanation:** DevSecOps integrates security into Agile sprints and CI/CD. Scrum and Kanban are Agile frameworks; Waterfall is sequential.
+
+186. Which secure coding guideline minimizes injection risks in dynamic queries?
+- A. Use parameterized statements
+- B. Implement code obfuscation
+- C. Minify client-side code
+- D. Disable error messages
+
+**Answer: A**
+**Explanation:** Parameterized queries separate code and data, preventing injection. Obfuscation hides logic, minification reduces size, disabling errors hinders debugging.
+
+187. Which testing approach exercises application APIs and evaluates responses for security flaws?
+- A. API fuzzing
+- B. Unit testing
+- C. UAT
+- D. Code review
+
+**Answer: A**
+**Explanation:** API fuzzing injects malformed or unexpected data into endpoints. Unit testing covers code logic, UAT validates functionality, code review inspects source.
+
+188. Which artifact outlines how development teams must handle vulnerabilities during coding?
+- A. Secure coding standard
+- B. Change management policy
+- C. Incident response plan
+- D. Service catalog
+
+**Answer: A**
+**Explanation:** Secure coding standards prescribe practices for vulnerability prevention. Other documents cover process changes, incidents, or service definitions.
+
+189. Which metric indicates average time between system failures?
+- A. MTBF
+- B. MTTD
+- C. MTTR
+- D. RTO
+
+**Answer: A**
+**Explanation:** Mean Time Between Failures measures reliability intervals. MTTD/MTTR track detection and repair, RTO sets recovery goals.
+
+190. Which process ensures that code dependencies are up to date and free of known vulnerabilities?
+- A. Software bill of materials (SBOM) analysis
+- B. Configuration management
+- C. Change control
+- D. Capacity planning
+
+**Answer: A**
+**Explanation:** SBOM lists all components, enabling vulnerability checks. Configuration management tracks settings, change control manages releases, capacity planning forecasts demand.
+
+191. Which environment replicates production to safely test patches and upgrades?
+- A. Development
+- B. Staging
+- C. Production
+- D. Sandbox
+
+**Answer: B**
+**Explanation:** Staging mirrors production for final testing. Development is for building, sandbox is for isolated experiments, live production serves users.
+
+192. Which activity in code review specifically looks for hardcoded credentials?
+- A. Secret scanning
+- B. Style checking
+- C. Dependency scanning
+- D. Performance profiling
+
+**Answer: A**
+**Explanation:** Secret scanning tools detect hardcoded passwords, API keys, and tokens. Style checks enforce formatting, dependency scans find libraries, profiling measures performance.
+
+193. Which control prevents cross-site scripting attacks by sanitizing dynamic content?
+- A. Input validation
+- B. CSP
+- C. Output encoding
+- D. HTTPS
+
+**Answer: C**
+**Explanation:** Output encoding escapes user-supplied data before rendering, preventing injected scripts. CSP mitigates but isn’t sanitization; input validation filters inputs; HTTPS encrypts transport.
+
+194. Which technique verifies security of container images before deployment?
+- A. Container image scanning
+- B. Dynamic analysis
+- C. Chaos engineering
+- D. Live monitoring
+
+**Answer: A**
+**Explanation:** Image scanning checks for vulnerabilities in container layers and dependencies. Dynamic analysis tests running containers; chaos engineering tests resilience; monitoring observes behavior.
+
+195. Which secure-development methodology focuses on continuous feedback and incremental delivery?
+- A. DevSecOps
+- B. Waterfall
+- C. Spiral
+- D. V-Model
+
+**Answer: A**
+**Explanation:** DevSecOps integrates security into continuous delivery pipelines. Spiral and V-Model are traditional SDLC variants; Waterfall is sequential.
+
+196. Which document defines exit criteria for each SDLC phase, including security approvals?
+- A. Project charter
+- B. Definition of done
+- C. Service-level agreement
+- D. Quality assurance plan
+
+**Answer: B**
+**Explanation:** The Definition of Done lists requirements that must be met to close a phase or task. Charters outline scope, SLAs define service metrics, QA plans specify testing processes.
+
+197. Which process ensures developers receive training on secure coding practices?
+- A. Security awareness program
+- B. Job rotation
+- C. Role-based access control
+- D. Patch management
+
+**Answer: A**
+**Explanation:** Security awareness includes targeted developer training. Job rotation shifts roles, RBAC manages permissions, and patch management updates software.
+
+198. Which technique uses runtime instrumentation to monitor application calls for security violations?
+- A. IAST
+- B. DAST
+- C. SAST
+- D. Fuzzing
+
+**Answer: A**
+**Explanation:** Interactive Application Security Testing monitors code during execution to detect vulnerabilities. DAST tests externally, SAST analyzes source, fuzzing injects inputs.
+
+199. Which practice tracks and enforces open-source software license compliance?
+- A. License management tool
+- B. Code obfuscation
+- C. Vulnerability scanning
+- D. Configuration baselining
+
+**Answer: A**
+**Explanation:** License management solutions inventory components and verify license terms. Obfuscation hides code, scanning finds flaws, baselines enforce settings.
+
+200. Which SDLC artifact details data flows, trust boundaries, and security controls for a system?
+- A. Threat model
+- B. Network diagram
+- C. Data flow diagram
+- D. Sequence diagram
+
+**Answer: C**
+**Explanation:** Data Flow Diagrams map how data moves and crosses trust zones, aiding security analysis. Threat models focus on attack scenarios, sequence diagrams show object interactions.
+
+201. Which tool provides visibility into user activity across cloud-hosted applications?
+- A. SIEM
+- B. CASB
+- C. PAM
+- D. IDP
+
+**Answer: B**
+**Explanation:** A Cloud Access Security Broker (CASB) monitors and controls user actions in SaaS environments. SIEM aggregates logs, PAM manages privileged accounts, IDP authenticates users.
+
+202. During an ISO 27001 audit, which document demonstrates that management reviews occurred?
+- A. Risk register
+- B. Meeting minutes
+- C. Statement of applicability
+- D. Asset inventory
+
+**Answer: B**
+**Explanation:** Meeting minutes from management reviews provide evidence of ISO 27001 clause 9.3 compliance. The SoA lists controls, the risk register logs risks, inventory tracks assets.
+
+203. Which principle ensures that critical system components cannot share memory spaces?
+- A. Separation of duties
+- B. Principle of least privilege
+- C. Least common mechanism
+- D. Defense in depth
+
+**Answer: C**
+**Explanation:** The least common mechanism principle reduces interdependencies by minimizing shared resources. Least privilege restricts rights, separation of duties splits functions, defense in depth layers controls.
+
+204. What is the primary objective of a hot site in disaster recovery planning?
+- A. Test backups
+- B. Provide immediate operational continuity
+- C. Store long-term archives
+- D. Host noncritical systems
+
+**Answer: B**
+**Explanation:** A hot site is a fully configured backup facility that enables near-instant failover. Cold sites store infrastructure only, archives hold data, noncritical systems don’t justify hot sites.
+
+205. Which asset classification label applies when unauthorized disclosure would incur regulatory fines?
+- A. Public
+- B. Confidential
+- C. Regulated
+- D. Top secret
+
+**Answer: C**
+**Explanation:** “Regulated” indicates data subject to legal requirements and fines if mishandled. Confidential covers corporate sensitivity, public is unrestricted, top secret is government-specific.
+
+206. Which control type is a retrospective log review to detect policy violations?
+- A. Preventive
+- B. Detective
+- C. Corrective
+- D. Deterrent
+
+**Answer: B**
+**Explanation:** Detective controls identify incidents after they occur, such as reviewing logs. Preventive block actions, corrective restore systems, deterrent discourage behavior.
+
+207. When securing a network appliance’s management interface, which segment should it reside in?
+- A. DMZ
+- B. Internal management VLAN
+- C. Guest network
+- D. Public zone
+
+**Answer: B**
+**Explanation:** A dedicated internal management VLAN restricts access to administrators. DMZ hosts public services, guest networks serve visitors, public zones are untrusted.
+
+208. Which protocol provides secure VLAN management over IP networks?
+- A. SNMPv1
+- B. SNMPv3
+- C. Telnet
+- D. FTP
+
+**Answer: B**
+**Explanation:** SNMPv3 adds authentication and encryption for managing network devices. SNMPv1 is insecure, Telnet and FTP transmit credentials in clear text.
+
+209. Which access-control mechanism assigns permissions based on tags attached to resources and users?  
+- A. RBAC  
+- B. DAC  
+- C. ABAC  
+- D. MAC  
+
+**Answer: C**
+**Explanation:** Attribute-Based Access Control uses metadata (tags) to make dynamic decisions. RBAC is role-based, DAC is owner-based, MAC uses labels and clearances.
+
+210. A company’s password vault rotates credentials automatically. Which security principle does this enforce?
+- A. Separation of duties
+- B. Least privilege
+- C. Credential hygiene
+- D. Role-based access
+
+**Answer: C**
+**Explanation:** Automatic credential rotation enforces good hygiene by preventing stale or compromised passwords. Least privilege limits rights, separation splits tasks, RBAC assigns roles.
+
+211. Which penetration-testing method provides the tester with network diagrams but no source code?
+- A. White-box
+- B. Gray-box
+- C. Black-box
+- D. Red-team
+
+**Answer: B**
+**Explanation:** Gray-box testing gives partial internal knowledge (e.g., diagrams). White-box includes full code, black-box simulates external attackers, red teams operate covertly.
+
+212. Which artifact provides detailed steps to perform a vulnerability scan?
+- A. Security policy
+- B. Standard operating procedure
+- C. Configuration baseline
+- D. Data flow diagram
+
+**Answer: B**
+**Explanation:** SOPs define exact processes, including tool configurations. Policies set objectives, baselines set desired configurations, DFDs map data movement.
+
+213. Which backup strategy minimizes recovery time with periodic full backups and frequent incrementals?
+- A. Grandfather-father-son
+- B. Differential only
+- C. Hybrid incremental
+- D. Synchronous mirroring
+
+**Answer: A**
+**Explanation:** The GFS rotation uses daily incrementals (sons), weekly fulls (fathers), and monthly fulls (grandfathers) for balance. Differential only repeats all changes, synchronous mirroring is real-time replication.
+
+214. Which log source is best for detecting insider misuse of privileged accounts?
+- A. Firewall logs
+- B. Active Directory logs
+- C. DNS logs
+- D. SNMP traps
+
+**Answer: B**
+**Explanation:** AD security event logs record privilege escalations and account usage. Firewalls track network traffic, DNS logs name queries, SNMP traps signal device events.
+
+215. Which incident-response phase focuses on containing malware to prevent spread?
+- A. Identification
+- B. Containment
+- C. Eradication
+- D. Recovery
+
+**Answer: B**
+**Explanation:** Containment isolates affected systems to limit damage. Identification finds incidents, eradication removes threats, recovery restores operations.
+
+216. Which SOC metric measures the percentage of incidents escalated to the next tier?
+- A. Escalation rate
+- B. False positive rate
+- C. Mean time to respond
+- D. Detection coverage
+
+**Answer: A**
+**Explanation:** Escalation rate tracks how often tier-1 cannot resolve incidents and passes them up. FPR measures noise, MTTR measures response speed, coverage measures detection breadth.
+
+217. Which process uses user and entity behavior analytics to detect anomalies?
+- A. SIEM
+- B. UEBA
+- C. WAF
+- D. DLP
+
+**Answer: B**
+**Explanation:** UEBA profiles normal behavior and flags deviations. SIEM aggregates logs, WAF protects web apps, DLP prevents data exfiltration.
+
+218. Which control can prevent data exfiltration via removable media?
+- A. Port security
+- B. USB lock
+- C. Endpoint DLP
+- D. Full-disk encryption
+
+**Answer: C**
+**Explanation:** Endpoint DLP agents block or monitor transfers to removable devices. Port security limits devices, USB locks physically block ports, encryption protects at rest.
+
+219. Which recovery plan focuses on restoring business functions after a regional disaster?
+- A. IT disaster recovery plan
+- B. Business continuity plan
+- C. Incident response plan
+- D. Crisis communications plan
+
+**Answer: B**
+**Explanation:** A Business Continuity Plan covers overall organizational recovery, including non-IT functions. IT DRP handles technology, IRP handles security incidents, crisis communications manage media.
+
+220. Which technique verifies that a cryptographic implementation resists timing attacks?
+- A. Side-channel analysis
+- B. Fuzz testing
+- C. Binary review
+- D. Threat modeling
+
+**Answer: A**
+**Explanation:** Side-channel analysis tests for leaks via timing, power, or electromagnetic emissions. Fuzz tests inputs, binary reviews code, threat models identify risks conceptually.
+
+221. Which security feature uses asymmetric keys to protect firmware integrity at boot?
+- A. Secure Boot
+- B. DEP
+- C. ASLR
+- D. UEFI
+
+**Answer: A**
+**Explanation:** Secure Boot verifies digital signatures of boot loaders using public-key cryptography. DEP/NX and ASLR protect memory, UEFI is firmware interface.
+
+222. Which design pattern isolates front-end web servers from back-end databases?
+- A. Three-tier architecture
+- B. Monolithic
+- C. Peer-to-peer
+- D. Fog computing
+
+**Answer: A**
+**Explanation:** Three-tier separates presentation, logic, and data layers for security and scalability. Monolithic combines layers, P2P is flat, fog computing distributes edge resources.
+
+223. Which component enforces micro-segmentation policies in a software-defined network?
+- A. Controller
+- B. Virtual switch
+- C. Hypervisor
+- D. Router
+
+**Answer: B**
+**Explanation:** Virtual switches apply policies at the VM network interface for micro-segmentation. Controllers manage state, hypervisors host VMs, routers direct IP packets.
+
+224. Which concept prevents a user from accessing data created after their access was granted?
+- A. Temporal separation
+- B. Location-based access
+- C. Dynamic labeling
+- D. Time-of-day restriction
+
+**Answer: A**
+**Explanation:** Temporal separation restricts access to data created within a permissible time window. Time-of-day restricts hours, dynamic labeling changes tags, location-based enforces geography.
+
+225. Which protocol provides encrypted file transfer over an SSH session?
+- A. SFTP
+- B. FTPS
+- C. SCP
+- D. HTTPs
+
+**Answer: A**
+**Explanation:** SFTP uses SSH channels for secure file transfer. FTPS uses TLS over FTP, SCP copies files without session management, HTTPS is for web.
+
+226. Which IAM process maps business functions to roles and permissions?
+- A. Role engineering
+- B. Provisioning
+- C. Certification
+- D. Federation
+
+**Answer: A**
+**Explanation:** Role engineering analyzes job functions and defines roles accordingly. Provisioning assigns accounts, certification reviews rights, federation shares identities.
+
+227. Which control reduces risk by ensuring code dependencies are reproducible and trustable?
+- A. Code signing
+- B. Containerization
+- C. Virtual patching
+- D. Load balancing
+
+**Answer: A**
+**Explanation:** Code signing authenticates provenance of binaries and libraries. Containerization isolates apps, virtual patching covers vulnerabilities at the network layer, load balancing distributes traffic.
+
+228. Which testing approach verifies that input validation logic rejects boundary-exceeding values?
+- A. Fuzzing
+- B. Regression testing
+- C. Integration testing
+- D. Unit testing
+
+**Answer: A**
+**Explanation:** Fuzzing injects extreme or malformed inputs to test validation. Unit tests cover expected cases, integration tests modules, regression tests for new defects.
+
+229. Which SDLC artifact lists all known threats, vulnerabilities, and controls for a system?
+- A. Risk register
+- B. Security policy
+- C. Requirements traceability matrix
+- D. System architecture document
+
+**Answer: A**
+**Explanation:** The risk register consolidates threats, vulnerabilities, and mitigation controls. Policies guide behavior, RTMs map requirements, architecture documents design.
+
+230. Which practice ensures developers avoid committing secrets into source code?
+- A. Pre-commit hooks
+- B. Code freeze
+- C. Continuous integration
+- D. Version tagging
+
+**Answer: A**
+**Explanation:** Pre-commit hooks can scan for secret patterns and block commits. CI runs tests after commits, code freeze stops changes, tags mark versions.
+
+231. Which feature prevents scripts from executing in user-uploaded files on a web server?
+- A. File type validation
+- B. URL rewriting
+- C. Content security policy
+- D. Directory listing
+
+**Answer: A**
+**Explanation:** File type validation checks MIME types and extensions to block scripts. CSP controls client-side behavior, URL rewriting alters paths, directory listing shows contents.
+
+232. Which metric measures the proportion of critical vulnerabilities remediated within SLA?
+- A. Remediation rate
+- B. Detection rate
+- C. False negative rate
+- D. Attack surface reduction
+
+**Answer: A**
+**Explanation:** Remediation rate tracks patching or mitigation of identified issues within agreed timeframes. Detection rate measures identification success.
+
+233. Which control type involves running pre-approved scripts to correct misconfigurations automatically?
+- A. Preventive
+- B. Detective
+- C. Corrective
+- D. Deterrent
+
+**Answer: C**
+**Explanation:** Corrective controls restore systems to desired state via automated remediation scripts. Preventive block issues, detective detect, deterrent discourage.
+
+234. Which incident-response communication channel is appropriate for public disclosure?
+- A. Internal ticketing system
+- B. Press release
+- C. Secure chat
+- D. SOC dashboard
+
+**Answer: B**
+**Explanation:** Press releases communicate confirmed information to external audiences. Internal systems are private, secure chat is for teams, dashboards monitor events.
+
+235. Which backup technique uses snapshots at the storage array level to speed backups?
+- A. Hardware snapshots
+- B. Incremental backup
+- C. Tape backup
+- D. Differential backup
+
+**Answer: A**
+**Explanation:** Array-based hardware snapshots capture point-in-time images rapidly. Incremental/differential operate at file level, tape backups are sequential.
+
+236. Which SIEM function normalizes logs into a common schema?
+- A. Parsing
+- B. Aggregation
+- C. Correlation
+- D. Reporting
+
+**Answer: A**
+**Explanation:** Parsing extracts fields and structures data uniformly. Aggregation collects logs, correlation links events, reporting visualizes findings.
+
+237. Which process ensures that changes to critical systems are tested in isolation before production deployment?
+- A. Change management
+- B. Asset management
+- C. Incident management
+- D. Problem management
+
+**Answer: A**
+**Explanation:** Change management enforces test plans and approvals for system modifications. Asset, incident, and problem management serve other ITSM functions.
+
+238. Which forensic principle ensures evidence is untampered during collection?
+- A. Chain of custody
+- B. Least privilege
+- C. Defense in depth
+- D. Separation of duties
+
+**Answer: A**
+**Explanation:** Chain of custody documents handling of evidence to prove integrity. Other principles guide security controls and roles.
+
+239. Which detection method inspects decrypted email for malicious attachments?
+- A. Secure email gateway
+- B. Inline proxy
+- C. Endpoint firewall
+- D. Network TAP
+
+**Answer: A**
+**Explanation:** Secure email gateways decrypt and scan inbound messages for threats. Inline proxies handle web traffic, firewalls block ports, TAPs capture raw packets.
+
+240. Which category of controls includes security training and awareness?
+- A. Administrative
+- B. Technical
+- C. Physical
+- D. Detective
+
+**Answer: A**
+**Explanation:** Administrative controls encompass policies, procedures, and training. Technical controls involve systems, physical controls secure facilities, detective controls identify incidents.
+
+241. Which license type permits linking proprietary modules without requiring derivative works to open source?
+- A. GPL
+- B. LGPL
+- C. MIT
+- D. AGPL
+
+**Answer: B**
+**Explanation:** The Lesser GPL allows linking without requiring the main application to be GPL. GPL and AGPL impose strong copyleft, MIT is permissive.
+
+242. Which process captures and analyzes memory images during a live forensic investigation?
+- A. Memory forensics
+- B. Disk imaging
+- C. Network forensics
+- D. Log analysis
+
+**Answer: A**
+**Explanation:** Memory forensics extracts volatile data (processes, credentials). Disk imaging copies persistent storage, network forensics captures traffic, logs analyze events.
+
+243. Which method reduces risk by running code with the minimum rights required?
+- A. Sandbox
+- B. Principle of least privilege
+- C. Full virtualization
+- D. Container orchestration
+
+**Answer: B**
+**Explanation:** Least privilege grants only necessary permissions. Sandboxes isolate code, virtualization and containers provide isolation, but privilege must still be limited.
+
+244. Which standard defines controls for securing personal health information in the United States?
+- A. PCI-DSS
+- B. HIPAA
+- C. GDPR
+- D. SOX
+
+**Answer: B**
+**Explanation:** The Health Insurance Portability and Accountability Act sets rules for PHI privacy and security. PCI-DSS covers payment data, GDPR covers EU personal data, SOX addresses financial reporting.
+
+245. Which vulnerability in web applications allows attackers to manipulate SQL statements?
+- A. Cross-site scripting
+- B. SQL injection
+- C. Cross-site request forgery
+- D. Directory traversal
+
+**Answer: B**
+**Explanation:** SQL injection inserts malicious SQL through input fields. XSS injects scripts, CSRF forges requests, directory traversal accesses unauthorized files.
+
+246. Which metric tracks average time between security incidents?
+- A. MTBF
+- B. MTTF
+- C. RTO
+- D. MTTD
+
+**Answer: A**
+**Explanation:** Mean Time Between Failures measures intervals between events, including security incidents. MTTF is time to first failure, RTO is recovery objective, MTTD is detection time.
+
+247. Which cloud security model places the responsibility for virtualization security on the customer?
+- A. SaaS
+- B. PaaS
+- C. IaaS
+- D. FaaS
+
+**Answer: C**
+**Explanation:** In Infrastructure as a Service, customers manage OS and virtualization settings. PaaS abstracts OS, SaaS abstracts applications, FaaS abstracts functions.
+
+248. Which artifact defines the structure and relationships of data entities in a database?
+- A. Entity-Relationship Diagram
+- B. Class Diagram
+- C. Sequence Diagram
+- D. State Diagram
+
+**Answer: A**
+**Explanation:** ERDs map entities and relationships, guiding database design. Class diagrams model objects in code, sequence and state diagrams show interactions and states.
+
+249. Which practice ensures source code and build artifacts are stored in secure, immutable repositories?
+- A. Git pull requests
+- B. Artifact repositories with immutability
+- C. Local developer storage
+- D. Manual file transfers
+
+**Answer: B**
+**Explanation:** Immutable artifact repositories prevent tampering by disallowing changes once published. Pull requests review code, local storage and manual transfers lack integrity guarantees.
+
+250. Which concept requires that every system change be logged with user ID, timestamp, and action?
+- A. Accountability
+- B. Non-repudiation
+- C. Availability
+- D. Confidentiality
+
+**Answer: A**
+**Explanation:** Accountability ensures user actions are traceable. Non-repudiation prevents denial of actions, availability ensures uptime, confidentiality protects information from disclosure.
+
+251. Which NIST RMF step involves tailoring baseline controls for a specific environment?
+- A. Categorize
+- B. Select
+- C. Implement
+- D. Monitor
+
+**Answer: B**
+**Explanation:** The “Select” step chooses and tailors security controls to system requirements. Categorize defines impact, implement applies controls, monitor assesses their effectiveness.
+
+252. A data owner requires separation between development and production environments. Which control enforces this?
+- A. Change management
+- B. Least privilege
+- C. Environment segregation
+- D. Access certification
+
+**Answer: C**
+**Explanation:** Environment segregation physically or logically isolates systems. Change management governs modifications, least privilege restricts rights, certification reviews access.
+
+253. Which security architecture component prevents a single component failure from halting the entire system?
+- A. Single sign-on
+- B. High-availability clustering
+- C. Stateful firewall
+- D. Traffic shaping
+
+**Answer: B**
+**Explanation:** High-availability clusters distribute load and fail over automatically. SSO centralizes authentication, firewalls filter traffic, shaping controls bandwidth.
+
+254. Which attack exploits misconfigured DNS records to intercept email traffic?
+- A. DNS cache poisoning
+- B. Domain hijacking
+- C. Typosquatting
+- D. MX record spoofing
+
+**Answer: D**
+**Explanation:** Spoofed MX records redirect mail to an attacker’s server. Cache poisoning alters stored entries, hijacking takes control of domains, typosquatting registers similar names.
+
+255. In Kerberos, which ticket allows a service to act on behalf of a user to other services?
+- A. TGT
+- B. Service Ticket
+- C. Delegation Ticket
+- D. Session Ticket
+
+**Answer: A**
+**Explanation:** The Ticket Granting Ticket (TGT) is used to request service tickets. Delegation uses TGTs forwarded to services; service tickets grant access; session tickets are generic.
+
+256. Which vulnerability test requires knowledge of internal system design and source code?
+- A. Black-box testing
+- B. Gray-box testing
+- C. White-box testing
+- D. Penetration testing
+
+**Answer: C**
+**Explanation:** White-box testing uses full internal knowledge and code. Gray-box uses partial info, black-box uses only external interfaces, penetration testing focuses on exploitation.
+
+257. Which backup retention technique rotates multiple media sets over time with grandfather, father, and son cycles?
+- A. Incremental forever
+- B. Grandfather-father-son
+- C. Differential mirror
+- D. Snapshot chaining
+
+**Answer: B**
+**Explanation:** GFS schedules daily, weekly, and monthly backups. Incremental forever never performs full backups after the first, differential mirror tracks all changes since full, snapshots operate at storage level.
+
+258. Which investigation step prevents alteration of volatile data during evidence collection?
+- A. Hash verification
+- B. Bit-stream imaging
+- C. Live response
+- D. Chain of custody
+
+**Answer: C**
+**Explanation:** Live response collects volatile data (RAM, process info) before shutting down. Imaging and hashing occur after acquisition; chain of custody documents handling.
+
+259. Which SDN component centrally programs forwarding rules on network devices?
+- A. Data plane
+- B. Control plane
+- C. Management plane
+- D. Application plane
+
+**Answer: B**
+**Explanation:** The control plane houses the SDN controller that pushes flow rules to data‐plane devices. Management plane configures devices; application plane runs network apps.
+
+260. Which cryptographic control provides non-repudiation for email messages?
+- A. Symmetric encryption
+- B. Digital signatures
+- C. Hashing
+- D. Key wrapping
+
+**Answer: B**
+**Explanation:** Digital signatures, using asymmetric keys, authenticate sender identity. Hashing ensures integrity, symmetric encryption protects confidentiality, key wrapping secures keys.
+
+261. Which security assessment type evaluates controls without exploiting vulnerabilities?
+- A. Penetration test
+- B. Vulnerability scan
+- C. Security audit
+- D. Red team exercise
+
+**Answer: C**
+**Explanation:** Audits review policies, procedures, and configurations. Scans and tests identify and exploit technical weaknesses; red teams simulate full attacks.
+
+262. Which SIEM feature uses machine learning to detect anomalous user behavior?
+- A. Rule-based correlation
+- B. Threat intelligence feeds
+- C. UEBA
+- D. Log normalization
+
+**Answer: C**
+**Explanation:** UEBA applies analytics and ML to model normal behavior and flag deviations. Rule-based correlation follows static logic, feeds provide indicators, normalization structures logs.
+
+263. Which network control blocks traffic based on application-layer content?
+- A. Stateless packet filter
+- B. Stateful inspection firewall
+- C. Application proxy
+- D. Network segmentation
+
+**Answer: C**
+**Explanation:** Proxies terminate sessions and inspect payloads at Layer 7. Stateful firewalls track connections but have limited deep inspection; segmentation isolates networks.
+
+264. Which principle requires that encryption keys be changed periodically to limit exposure?
+- A. Key continuity
+- B. Key rollover
+- C. Key archival
+- D. Key synchronization
+
+**Answer: B**
+**Explanation:** Key rollover schedules regular key replacement. Continuity ensures no gaps during rollover, archival stores old keys, synchronization aligns keys across systems.
+
+265. Which IAM process automatically assigns roles based on job function and department?
+- A. Role engineering
+- B. Role provisioning
+- C. Role mining
+- D. Role certification
+
+**Answer: B**
+**Explanation:** Provisioning applies predefined role assignments. Engineering defines roles, mining discovers existing patterns, certification reviews them.
+
+266. Which wireless attack captures handshake traffic to perform offline password cracking?
+- A. Evil twin
+- B. Deauthentication
+- C. WPA handshake capture
+- D. Beacon flooding
+
+**Answer: C**
+**Explanation:** Capturing the four‐way handshake provides the encrypted frames needed for offline PSK brute-forcing. Deauth forces handshakes but isn’t the capture itself; evil twin spoofs APs.
+
+267. Which control mitigates ARP spoofing by blocking unknown MAC addresses on ports?
+- A. VLAN
+- B. Port security
+- C. MAC filtering
+- D. DHCP snooping
+
+**Answer: B**
+**Explanation:** Port security limits allowed MAC addresses per port. MAC filtering can apply globally but not per-port security; DHCP snooping builds trusted tables; VLAN segments traffic.
+
+268. Which firewall rule type denies traffic unless explicitly allowed?
+- A. Permissive
+- B. Implicit deny
+- C. Explicit allow
+- D. Stateless
+
+**Answer: B**
+**Explanation:** An implicit deny default rule blocks all unmatched traffic. Explicit allow rules permit specific traffic; permissive policies allow by default; stateless filters lack context.
+
+269. Which model enforces integrity by preventing subjects with low integrity from writing to high-integrity objects?
+- A. Bell-LaPadula
+- B. Biba
+- C. Clark-Wilson
+- D. Brewer-Nash
+
+**Answer: B**
+**Explanation:** Biba’s “no write up” rule preserves integrity. Bell-LaPadula addresses confidentiality, Clark-Wilson enforces transactional integrity, Brewer-Nash handles conflicts of interest.
+
+270. Which SDLC methodology delivers incremental functionality in short iterations with embedded security reviews?
+- A. Waterfall
+- B. Agile
+- C. V-Model
+- D. Spiral
+
+**Answer: B**
+**Explanation:** Agile promotes sprints with frequent security activities (DevSecOps). V-Model maps testing phases, Spiral focuses on risk, Waterfall is sequential.
+
+271. Which backup type consolidates incremental backups into a synthetic full?
+- A. Differential
+- B. Snapshot
+- C. Synthetic full
+- D. Mirror
+
+**Answer: C**
+**Explanation:** Synthetic full merges full and incremental sets on the backup server. Differentials rerun changes, snapshots capture point-in-time, mirrors replicate data in real time.
+
+272. Which measure prevents firmware tampering by verifying digital signatures at boot?
+- A. Secure Boot
+- B. UEFI
+- C. BIOS password
+- D. TPM sealing
+
+**Answer: A**
+**Explanation:** Secure Boot checks firmware/bootloader signatures. UEFI is the interface, TPM seals data, BIOS passwords only restrict access.
+
+273. Which concept uses dynamic trust scoring to adjust user privileges in real time?
+- A. Adaptive access
+- B. Role-based access
+- C. Mandatory access
+- D. Discretionary access
+
+**Answer: A**
+**Explanation:** Adaptive access considers context (location, device health) to grant permissions. RBAC is static roles, MAC uses labels, DAC is owner-based.
+
+274. Which process captures source code dependencies to generate a software bill of materials?
+- A. Dependency scanning
+- B. Code signing
+- C. Static analysis
+- D. Fuzz testing
+
+**Answer: A**
+**Explanation:** Dependency scanners enumerate and inspect libraries. Static analysis reviews code patterns, signing authenticates binaries, fuzzing tests inputs.
+
+275. Which control type proactively reduces vulnerability by applying vendor patches promptly?
+- A. Preventive
+- B. Detective
+- C. Corrective
+- D. Compensating
+
+**Answer: A**
+**Explanation:** Patch management prevents exploitation of known flaws. Detective identifies issues, corrective remediates after detection, compensating substitutes unavailable controls.
+
+276. Which technique uses tokenization to secure sensitive data in production databases?
+- A. Encryption at rest
+- B. Tokenization
+- C. Hashing
+- D. Masking
+
+**Answer: B**
+**Explanation:** Tokenization replaces data with non-sensitive tokens, keeping real data in a secure vault. Masking obfuscates for display, hashing is one-way, encryption requires keys.
+
+277. Which authentication protocol uses EAP over TLS within 802.1X for Wi-Fi?
+- A. PEAP
+- B. EAP-TLS
+- C. EAP-MD5
+- D. LEAP
+
+**Answer: B**
+**Explanation:** EAP-TLS uses client and server certificates. PEAP encapsulates TLS within another tunnel, MD5 is insecure, LEAP is deprecated.
+
+278. Which control ensures that emergency changes are documented and approved retrospectively?  
+- A. Change advisory board  
+- B. Emergency change process  
+- C. Standard change process  
+- D. Baseline configuration 
+
+**Answer: B**
+**Explanation:** Emergency change processes allow fast fixes with post-implementation review. CAB covers regular changes; standard changes follow predefined templates; baselines define configurations.
+
+279. Which incident-response activity involves notifying stakeholders of a breach?
+- A. Eradication
+- B. Notification
+- C. Containment
+- D. Recovery
+
+**Answer: B**
+**Explanation:** Notification communicates incident details to regulators, customers, and management. Containment and eradication address technical issues; recovery restores services.
+
+280. Which network monitoring tool uses NetFlow data to analyze traffic patterns?
+- A. Wireshark
+- B. NetFlow collector
+- C. IDS
+- D. Port mirror
+
+**Answer: B**
+**Explanation:** NetFlow collectors aggregate flow records to characterize traffic. Wireshark captures packets, IDS detects intrusions, port mirrors duplicate traffic.
+
+281. Which secure-coding practice prevents race conditions in concurrent environments?
+- A. Input validation
+- B. Mutex locks
+- C. Code obfuscation
+- D. Dead code removal
+
+**Answer: B**
+**Explanation:** Mutexes serialize access to shared resources. Validation checks data, obfuscation hides logic, dead code removal eliminates unused code.
+
+282. Which tool simulates user attacks against APIs to find logic flaws?
+- A. Burp Suite
+- B. SoapUI
+- C. Postman
+- D. ApiFuzzer
+
+**Answer: D**
+**Explanation:** ApiFuzzer injects malformed and unexpected payloads into API endpoints. Burp Suite can be extended for APIs, SoapUI tests functionality, Postman is manual.
+
+283. Which authorization framework uses scopes and grants to delegate limited access in OAuth 2.0?
+- A. SAML
+- B. JWT
+- C. OAuth 2.0
+- D. OpenID Connect
+
+**Answer: C**
+**Explanation:** OAuth 2.0 issues access tokens with scopes defining permissible actions. OIDC adds identity layers, JWT is token format, SAML uses XML assertions.
+
+284. Which control type logs outbound FTP transfers for policy enforcement?  
+- A. Preventive  
+- B. Detective  
+- C. Corrective  
+- D. Deterrent
+
+**Answer: B**
+**Explanation:** Logging is a detective control that records events for review. Preventive would block transfers, corrective restores after issues, deterrent discourages actions.
+
+285. Which disaster recovery strategy uses a partially equipped site to reduce cost?
+- A. Hot site
+- B. Warm site
+- C. Cold site
+- D. Cloud failover
+
+**Answer: B**
+**Explanation:** Warm sites have infrastructure and some data but require setup. Hot sites are fully operational; cold sites provide space only; cloud failover may be hot or warm.
+
+286. Which component of a WAF applies rules based on application-specific signatures?
+- A. Signature engine
+- B. Packet filter
+- C. Stateful engine
+- D. SSL proxy
+
+**Answer: A**
+**Explanation:** Signature engines match known patterns in web traffic. Packet filters operate at Layer 3/4; stateful engines track sessions; SSL proxies handle encryption.
+
+287. Which process ensures each software release includes security test results and sign-off?
+- A. Release management
+- B. Change management
+- C. Incident management
+- D. Capacity planning
+
+**Answer: A**
+**Explanation:** Release management packages code along with test artifacts for deployment. Change management authorizes changes; incident and capacity planning serve other purposes.
+
+288. Which SDLC practice incorporates threat modeling, code scanning, and automated tests into CI/CD?
+- A. DevSecOps
+- B. Waterfall
+- C. V-Model
+- D. Spiral
+
+**Answer: A**
+**Explanation:** DevSecOps integrates security tools into pipelines. Other models outline development stages without automated security integration.
+
+289. Which IAM feature allows single logout across multiple web applications?
+- A. SAML Single Logout
+- B. OAuth refresh tokens
+- C. Kerberos TGT renewal
+- D. RADIUS accounting
+
+**Answer: A**
+**Explanation:** SAML SLO propagates logout requests to all service providers. OAuth refresh tokens reauthenticate, Kerberos renews tickets, RADIUS logs sessions.
+
+290. Which concept ensures software binaries match the source code that was reviewed?
+- A. Reproducible builds
+- B. Code signing
+- C. Binary hardening
+- D. Dependency scanning
+
+**Answer: A**
+**Explanation:** Reproducible builds guarantee that compiling the same source yields identical binaries. Code signing authenticates origin, hardening makes binaries resilient, scanning checks libraries.
+
+291. Which network device enforces micro-segmentation policies at the workload level?
+- A. Router
+- B. Virtual firewall
+- C. Load balancer
+- D. IDS
+
+**Answer: B**
+**Explanation:** Virtual firewalls run in hypervisors or containers to filter east–west traffic. Routers direct packets, load balancers distribute traffic, IDS detect anomalies.
+
+292. Which metric expresses the percentage of systems compliant with security baselines?
+- A. Compliance rate
+- B. Coverage ratio
+- C. Vulnerability rate
+- D. Detection ratio
+
+**Answer: A**
+**Explanation:** Compliance rate measures adherence to defined configurations. Coverage and detection relate to monitoring, vulnerability rate tracks flaws.
+
+293. Which control prevents sensitive data from being loaded into client-side scripts?
+- A. Content Security Policy
+- B. Input validation
+- C. Server-side rendering
+- D. CSP report-only
+
+**Answer: C**
+**Explanation:** Rendering on the server keeps data out of the browser context. CSP restricts script sources; report-only only logs violations; validation checks inputs.
+
+294. Which testing strategy verifies that security controls remain effective after code changes?
+- A. Regression security testing
+- B. Unit testing
+- C. Integration testing
+- D. Load testing
+
+**Answer: A**
+**Explanation:** Regression security tests rerun security checks after modifications. Unit and integration focus on functionality; load tests performance.
+
+295. Which process manages certificates lifecycle, including renewal and revocation?
+- A. PKI management
+- B. Key escrow
+- C. Secret sharing
+- D. Hashing
+
+**Answer: A**
+**Explanation:** PKI management oversees issuance, distribution, and revocation of certificates. Key escrow stores keys, secret sharing splits secrets, hashing produces digests.
+
+296. Which policy defines acceptable use of corporate coding libraries and frameworks?
+- A. Secure coding policy
+- B. Network security policy
+- C. Data classification policy
+- D. Change management policy
+
+**Answer: A**
+**Explanation:** Secure coding policies prescribe use of vetted libraries and versions. Other policies govern network, data, or changes.
+
+297. Which control ensures developers receive real-time alerts on security issues in pull requests?
+- A. Code scanning integration
+- B. Manual code review
+- C. QA sign-off
+- D. Post-deployment testing
+
+**Answer: A**
+**Explanation:** Integrated scanners analyze code as part of pull requests. Manual review is slower, QA sign-off is post-merge, post-deployment tests find issues after release.
+
+298. Which architecture enforces security by requiring authentication at every network hop?
+- A. Zero trust
+- B. Traditional perimeter
+- C. Hub-and-spoke
+- D. Flat network
+
+**Answer: A**
+**Explanation:** Zero trust mandates continuous verification per request. Traditional perimeters trust once inside; others describe topologies.
+
+299. Which metric measures the average time from vulnerability disclosure to patch deployment?
+- A. Time to patch
+- B. Mean time to detect
+- C. Mean time to respond
+- D. Time to remediation
+
+**Answer: A**
+**Explanation:** Time to patch tracks speed of applying vendor fixes. Detection, response, and remediation times cover other phases.
+
+300. Which SDLC document details security requirements, test cases, and acceptance criteria?
+- A. System requirements specification
+- B. Test plan
+- C. Requirements traceability matrix
+- D. Deployment guide
+
+**Answer: C**
+**Explanation:** The RTM maps requirements to test cases and criteria, ensuring coverage. SRS lists requirements, test plans define execution, guides cover operations.
+
+301. Which metric quantifies expected annual monetary loss from a specific threat?
+- A. Annualized Loss Expectancy
+- B. Key Risk Indicator
+- C. Return on Security Investment
+- D. Mean Time Between Failures
+
+**Answer: A**
+**Explanation:** Annualized Loss Expectancy (ALE) multiplies Single Loss Expectancy (SLE) by Annual Rate of Occurrence (ARO), providing a monetary risk metric. KRIs signal emerging risks, ROI measures investment returns, MTBF gauges reliability.
+
+302. A data custodian is responsible for:
+- A. Defining data classification labels
+- B. Implementing access controls according to policy
+- C. Approving risk treatment plans
+- D. Authorizing system operations
+
+**Answer: B**
+**Explanation:** Custodians enforce policies by configuring backups, access controls, and maintenance. Owners define classification, risk owners approve treatments, authorizers grant Authority to Operate.
+
+303. Which standard defines security controls for government and contractor information systems?
+- A. ISO 27001
+- B. NIST SP 800-53
+- C. COBIT 2019
+- D. PCI-DSS
+
+**Answer: B**
+**Explanation:** NIST SP 800-53 catalogs controls for federal systems. ISO 27001 is international ISMS standard, COBIT maps IT governance, PCI-DSS addresses payment card data.
+
+304. In a defense-in-depth network, which layer prevents direct Internet access to internal servers?  
+- A. Intrusion detection system  
+- B. Perimeter firewall  
+- C. Network access control  
+- D. Host-based firewall
+
+**Answer: B**
+**Explanation:** The perimeter firewall filters traffic at the edge before it reaches internal networks. IDS detects attacks, NAC controls device access, host firewalls protect individual systems.
+
+305. Which model enforces that subjects cannot read data at higher confidentiality levels?
+- A. Bell-LaPadula
+- B. Biba
+- C. Clark-Wilson
+- D. Brewer-Nash
+
+**Answer: A**
+**Explanation:** Bell-LaPadula’s “no read up” rule preserves confidentiality. Biba addresses integrity (“no write up”), Clark-Wilson enforces transaction integrity, Brewer-Nash handles conflict of interest.
+
+306. Which protocol uses mutual certificate-based authentication for network device management?
+- A. Telnet
+- B. SNMPv3
+- C. SSH
+- D. HTTPS
+
+**Answer: B**
+**Explanation:** SNMPv3 can employ user-based security with authentication and encryption, including certificate-based setups. SSH uses key pairs, HTTPS secures web interfaces, Telnet is unencrypted.
+
+307. Which segmentation technique isolates traffic by embedding VLAN tags?  
+- A. Router-based subnetting  
+- B. VLAN  
+- C. VPN  
+- D. Proxy
+
+**Answer: B**
+**Explanation:** VLAN tagging segments broadcast domains on switches. Routers segment at Layer 3, VPNs encapsulate traffic, proxies mediate application flows.
+
+308. Which AAA service centralizes authentication for enterprise Wi-Fi?
+- A. RADIUS
+- B. TACACS+
+- C. LDAP
+- D. Kerberos
+
+**Answer: A**
+**Explanation:** RADIUS handles authentication, authorization, and accounting for network access. TACACS+ also does AAA but is Cisco-centric; LDAP is a directory, Kerberos is ticket-based.
+
+309. Which IAM process ensures user entitlements reflect current job responsibilities?
+- A. Provisioning
+- B. Deprovisioning
+- C. Access certification
+- D. Role mining
+
+**Answer: C**
+**Explanation:** Access certification (recertification) periodically reviews and validates user rights. Provisioning/deprovisioning manage joiners and leavers, role mining discovers roles.
+
+310. Which control type uses continuous scanning and alerts on misconfigurations?
+- A. Preventive
+- B. Detective
+- C. Corrective
+- D. Compensating
+
+**Answer: B**
+**Explanation:** Detective controls (vulnerability scanners, config auditors) identify policy deviations. Preventive block actions, corrective restore settings, compensating offer alternatives.
+
+311. During an internal penetration test, testers exploit a known vulnerability in the latest patch cycle. Which gap does this reveal?
+- A. Misconfiguration
+- B. Patch management failure
+- C. Weak encryption
+- D. Poor network segmentation
+
+**Answer: B**
+**Explanation:** Successful exploit of a patchable flaw highlights ineffective patch processes. Misconfigurations may also play a role, but the core issue is patch management.
+
+312. Which backup method speeds restoration by combining full and incremental sets on the backup server?
+- A. Differential
+- B. Synthetic full
+- C. Mirror
+- D. Snapshots
+
+**Answer: B**
+**Explanation:** Synthetic full merges an initial full backup with subsequent incrementals, creating a new full without impacting production. Differential repeats all changes since the last full.
+
+313. Which incident-response phase includes lessons learned workshops?
+- A. Identification
+- B. Containment
+- C. Recovery
+- D. Post-incident review
+
+**Answer: D**
+**Explanation:** The post-incident review (often part of recovery) analyzes successes and failures to improve future responses.
+
+314. Which SOC role focuses on tuning detection rules and reducing false positives?
+- A. Tier-1 analyst
+- B. Threat hunter
+- C. Use-case developer
+- D. Incident manager
+
+**Answer: C**
+**Explanation:** Use-case developers create and refine detection logic to optimize alert accuracy. Tier-1 analysts triage alerts, threat hunters search proactively, managers coordinate response.
+
+315. Which secure-coding practice restricts dynamic code execution in web applications?
+- A. Input validation
+- B. Disabling eval() calls
+- C. Static analysis
+- D. Obfuscation
+
+**Answer: B**
+**Explanation:** Disabling or sandboxing eval-style functions prevents injection of arbitrary code. Input validation checks data, static analysis finds issues, obfuscation hides logic.
+
+316. Which concept ensures that build artifacts are identical each time from the same source code?
+- A. Code obfuscation
+- B. Reproducible builds
+- C. Containerization
+- D. Binary randomization
+
+**Answer: B**
+**Explanation:** Reproducible builds enforce deterministic compilation, verifying provenance. Containerization isolates environments but doesn’t guarantee identical outputs.
+
+317. Which practice automatically blocks IP addresses exhibiting brute-force activity?
+- A. Rate limiting
+- B. Account lockout
+- C. Geo-blocking
+- D. CAPTCHA
+
+**Answer: A**
+**Explanation:** Rate limiting caps requests per IP, mitigating brute-force attempts. Account lockout acts on user accounts, geo-blocking restricts regions, CAPTCHA challenges humans.
+
+318. Which model restricts access decisions based on user, resource, and environment attributes?
+- A. DAC
+- B. MAC
+- C. RBAC
+- D. ABAC
+
+**Answer: D**
+**Explanation:** ABAC dynamically evaluates attributes like time, location, and user role. DAC is discretionary by owners, MAC is label-based, RBAC is role-based.
+
+319. Which wireless attack creates a rogue AP mimicking a legitimate SSID to capture credentials?
+- A. Evil twin
+- B. Jamming
+- C. Beacon flooding
+- D. WPA downgrade
+
+**Answer: A**
+**Explanation:** Evil-twin APs spoof legitimate networks, luring users to connect and divulge credentials. Jamming disrupts signals, beacon flooding overwhelms clients.
+
+320. Which network-based DLP control inspects HTTP POST requests for sensitive data patterns?
+- A. WAF
+- B. Proxy-based DLP
+- C. IDS
+- D. SSL VPN
+
+**Answer: B**
+**Explanation:** Proxy-based DLP decrypts and inspects web traffic for policy violations. WAF filters attacks, IDS detects intrusions, SSL VPN secures remote access.
+
+321. Which protocol extension enforces mandatory MAC labels on email messages?
+- A. S/MIME
+- B. TLS
+- C. SMTP MTA-STS
+- D. DANE
+
+**Answer: A**
+**Explanation:** S/MIME supports security labels and signatures within emails. TLS secures the transport, MTA-STS enforces mail transport security, DANE binds TLS to DNS.
+
+322. Which type of key ceremony documents the generation and distribution of root CA keys?
+- A. Key escrow
+- B. Key signing
+- C. Key ceremony
+- D. Key rollover
+
+**Answer: C**
+**Explanation:** A key ceremony is a formal process with multiple stakeholders present to generate, share, and protect high-value keys. Escrow stores keys, signing uses keys, rollover replaces keys.
+
+323. Which security architecture concept limits the amount of code running in privileged mode?
+- A. Monolithic kernel
+- B. Microkernel
+- C. Hypervisor
+- D. Trusted OS
+
+**Answer: B**
+**Explanation:** Microkernels minimize the trusted computing base by running most services in user mode. Monolithic kernels run many services as privileged.
+
+324. Which control prevents unauthorized firmware modifications on network devices?
+- A. Configuration management
+- B. Secure boot
+- C. Packet filtering
+- D. Port security
+
+**Answer: B**
+**Explanation:** Secure boot verifies firmware integrity during startup. Configuration management tracks changes but doesn’t enforce them at boot.
+
+325. Which IPsec mode encrypts only the payload, leaving the original IP header intact?
+- A. Tunnel
+- B. Transport
+- C. Proxy
+- D. DMZ
+
+**Answer: B**
+**Explanation:** Transport mode encrypts payloads end-to-end without encapsulating the IP header. Tunnel mode encrypts the entire packet.
+
+326. Which zero-trust component continuously evaluates device posture before granting access?
+- A. Policy enforcement point
+- B. Policy decision point
+- C. Identity provider
+- D. Logging server
+
+**Answer: B**
+**Explanation:** The Policy Decision Point assesses user and device attributes and issues access decisions. Enforcement points apply those decisions.
+
+327. Which cryptographic algorithm provides both encryption and message authentication in one function?
+- A. AES-CBC
+- B. HMAC-SHA256
+- C. Galois/Counter Mode
+- D. RSA
+
+**Answer: C**
+**Explanation:** AES-GCM combines encryption and authentication tags. AES-CBC offers confidentiality only; HMAC-SHA256 provides integrity; RSA is asymmetric.
+
+328. Which test uses a copy of production data in a sandbox to validate backup restoration?  
+- A. Live recovery drill  
+- B. Tabletop exercise  
+- C. Walk-through  
+- D. Penetration test
+
+**Answer: A**
+**Explanation:** Live recovery drills restore systems in a test environment using real data to verify procedures. Tabletop and walk-throughs are discussion-based.
+
+329. Which operational control defines how to handle security incidents end-to-end?
+- A. Incident response plan
+- B. Asset inventory
+- C. Change management
+- D. Vulnerability management
+
+**Answer: A**
+**Explanation:** The IRP outlines detection, analysis, containment, eradication, recovery, and lessons learned. Other processes serve different lifecycle stages.
+
+330. Which SIEM feature uses playbooks to automate response actions upon detection?
+- A. SOAR
+- B. UEBA
+- C. Log parsing
+- D. Dashboards
+
+**Answer: A**
+**Explanation:** Security Orchestration, Automation, and Response (SOAR) integrates with SIEM to execute predefined workflows. UEBA detects anomalies, parsing structures data.
+
+331. Which logging standard ensures timestamps are synchronized across devices?
+- A. NTP
+- B. SNTP
+- C. Syslog
+- D. Kerberos
+
+**Answer: A**
+**Explanation:** NTP synchronizes clocks for accurate log times. SNTP is simplified NTP, syslog transmits logs, Kerberos uses timestamps for tickets.
+
+332. Which secure-coding defect allows an attacker to alter parameterized SQL queries?
+- A. SQL injection
+- B. Cross-site scripting
+- C. Command injection
+- D. Directory traversal
+
+**Answer: A**
+**Explanation:** Faulty parameterization permits injection of SQL commands. XSS targets scripts, command injection affects OS commands.
+
+333. Which practice uses feature flags to disable insecure code paths in production?
+- A. Blue-green deployment
+- B. Canary release
+- C. Toggle-based deployment
+- D. Immutable infrastructure
+
+**Answer: C**
+**Explanation:** Feature toggles allow turning code features on or off without redeployment. Blue-green and canary focus on environment switching.
+
+334. Which concept ensures each code build includes provenance metadata and audit trail?
+- A. Continuous integration
+- B. Immutable artifacts
+- C. Supply chain security
+- D. Version control
+
+**Answer: C**
+**Explanation:** Supply chain security tracks components, metadata, and origins throughout the build process. Immutable artifacts and version control help but don’t cover the full chain.
+
+335. Which method tests a web application’s authentication bypass by manipulating session tokens?
+- A. Broken access control testing
+- B. SQL injection testing
+- C. Fuzzing
+- D. Load testing
+
+**Answer: A**
+**Explanation:** Access control tests explore session manipulation, missing checks, and parameter tampering. SQL injection targets inputs, fuzzing randomizes data.
+
+336. Which policy mandates destruction of expired user credentials and keys?
+- A. Data retention policy
+- B. Cryptographic key management policy
+- C. Acceptable use policy
+- D. Password policy
+
+**Answer: B**
+**Explanation:** Key management policies specify key lifetime, archival, and destruction procedures. Password policies govern user credentials, retention covers data.
+
+337. Which authentication factor can be simultaneously strong and non-repudiable?
+- A. PIN
+- B. Biometric
+- C. One-time password
+- D. Security question
+
+**Answer: B**
+**Explanation:** Biometric factors (fingerprints, iris scans) are unique to individuals and hard to repudiate. OTPs are transient; PINs and security questions can be shared or stolen.
+
+338. Which Linux security module enforces mandatory access control policies?
+- A. SELinux
+- B. AppArmor
+- C. Tomoyo
+- D. All of the above
+
+**Answer: D**
+**Explanation:** SELinux, AppArmor, and Tomoyo are LSMs that implement MAC policies on Linux by restricting process capabilities.
+
+339. Which cryptographic practice ensures forward secrecy in TLS sessions?
+- A. RSA key exchange
+- B. DH/ECDH ephemeral key exchange
+- C. Static Diffie-Hellman
+- D. PSK
+
+**Answer: B**
+**Explanation:** Ephemeral Diffie-Hellman (DHE/ECDHE) generates unique session keys, preventing compromise of past sessions if long-term keys leak.
+
+340. Which process captures and analyzes network packet captures to investigate incidents?
+- A. Packet forensics
+- B. Log analysis
+- C. Endpoint forensics
+- D. Memory forensics
+
+**Answer: A**
+**Explanation:** Packet forensics examines full packet captures for payloads, protocols, and attacker activity. Log analysis reviews events, memory forensics examines RAM.
+
+341. Which architecture minimizes shared libraries between applications to reduce attack surface?
+- A. Monolithic
+- B. Microservices
+- C. Service-oriented
+- D. Layered
+
+**Answer: B**
+**Explanation:** Microservices encapsulate functionality and dependencies per service, reducing shared code. Monoliths share libraries broadly.
+
+342. Which control prevents unauthorized USB devices from connecting to endpoints?
+- A. Endpoint DLP
+- B. USB port lockdown
+- C. Full-disk encryption
+- D. Network access control
+
+**Answer: B**
+**Explanation:** USB port lockdown software or BIOS settings block removable device access. DLP may monitor but not prevent; NAC controls network access.
+
+343. Which protocol extension adds digital signatures to BGP route advertisements?
+- A. BGPsec
+- B. SSL
+- C. TLS
+- D. IPSec
+
+**Answer: A**
+**Explanation:** BGPsec uses public-key signatures to authenticate AS path information, preventing route hijacking.
+
+344. Which practice uses canary tokens embedded in data to detect unauthorized access?
+- A. Honeyfiles
+- B. Honeynets
+- C. Honeypots
+- D. IDS
+
+**Answer: A**
+**Explanation:** Honeyfiles or canary tokens alert when opened, indicating unauthorized data access. Honeypots simulate services, honeynets simulate networks.
+
+345. Which data classification control ensures metadata travels with documents across systems?
+- A. Embedded labels
+- B. Watermarking
+- C. URL tagging
+- D. Metadata stripping
+
+**Answer: A**
+**Explanation:** Embedded labels (classification headers) persist within files and enforce handling in DLP systems. Watermarks are visible markers, URL tagging tracks links.
+
+346. Which secure-development activity audits third-party code for vulnerabilities before integration?
+- A. Software composition analysis
+- B. Static code analysis
+- C. Dynamic analysis
+- D. Manual code review
+
+**Answer: A**
+**Explanation:** SCA inspects open-source and third-party libraries for known CVEs and license issues. SAST analyzes in-house code.
+
+347. Which method ensures high-availability by spreading services across multiple geographic sites?
+- A. Active-active clustering
+- B. Hot stand-by
+- C. Warm fail-over
+- D. Active-passive clustering
+
+**Answer: A**
+**Explanation:** Active-active clusters distribute load across sites, providing resilience against regional failures. Passive models keep standby resources.
+
+348. Which SDLC phase validates that implemented security controls meet requirements?
+- A. Implementation
+- B. Testing
+- C. Deployment
+- D. Maintenance
+
+**Answer: B**
+**Explanation:** The testing phase verifies functional and security requirements through test cases and penetration tests before deployment.
+
+349. Which technology enables micro-segmentation by enforcing policy at the workload interface?
+- A. Software-defined perimeter
+- B. Virtual firewall
+- C. Network ACL
+- D. VLAN
+
+**Answer: B**
+**Explanation:** Virtual firewalls run at the VM or container network interface, enforcing granular policies. Software-defined perimeter is a broader zero-trust approach.
+
+350. Which process continuously monitors application code repositories for new vulnerabilities?
+- A. Vulnerability scanning
+- B. Continuous integration testing
+- C. Dependency scanning
+- D. Code obfuscation
+
+**Answer: C**
+**Explanation:** Dependency scanning tools watch repositories for newly disclosed vulnerabilities in libraries and alert teams. CI testing runs tests but may not check external CVEs.
+
+351. A security architect needs to ensure non-repudiation in an email system. Which mechanism provides proof of the origin and integrity of messages?
+- A. Digital signatures
+- B. Message digests
+- C. Symmetric encryption
+- D. Hash-based MAC
+
+**Answer: A**
+**Explanation:** Digital signatures use asymmetric keys to bind signer identity and content, preventing the sender from denying the message and assuring integrity.
+
+352. Which document defines roles, responsibilities, and processes for cryptographic key management?
+- A. Encryption policy
+- B. Key management policy
+- C. Certificate practice statement
+- D. System security plan
+
+**Answer: B**
+**Explanation:** A key management policy outlines lifecycle procedures—generation, distribution, storage, rotation, and destruction—for all cryptographic keys.
+
+353. Under GDPR, which right allows an individual to request deletion of personal data when no longer necessary?
+- A. Right to access
+- B. Right to erasure
+- C. Right to portability
+- D. Right to rectification
+
+**Answer: B**
+**Explanation:** The “right to erasure” (the “right to be forgotten”) permits individuals to have their personal data erased when retention is no longer justified.
+
+354. During threat modeling, which artifact helps identify trust boundaries and data flows?
+- A. Entity-relationship diagram
+- B. Data flow diagram
+- C. Sequence diagram
+- D. Use case diagram
+
+**Answer: B**
+**Explanation:** Data flow diagrams map how data moves across system components and trust zones, highlighting areas for threat analysis.
+
+355. Which attack reuses previously captured SCADA commands to manipulate industrial processes?
+- A. Replay attack
+- B. Man-in-the-middle
+- C. Denial-of-service
+- D. Command injection
+
+**Answer: A**
+**Explanation:** A replay attack captures valid commands and replays them later, causing unauthorized control without needing to break encryption.
+
+356. Which integrity model prevents subjects from reading objects at lower integrity levels?
+- A. Bell-LaPadula
+- B. Biba
+- C. Clark-Wilson
+- D. Brewer-Nash
+
+**Answer: B**
+**Explanation:** Biba’s “no read down” rule stops high-integrity subjects from reading lower-integrity objects, protecting data integrity.
+
+357. A cloud consumer wants guaranteed separation of customer data. Which IaaS control enforces this at the hypervisor level?
+- A. Virtual network isolation
+- B. Security groups
+- C. Dedicated host tenancy
+- D. API throttling
+
+**Answer: C**
+**Explanation:** Dedicated hosts ensure that VMs run on hardware isolated to a single customer, preventing co-tenant data exposure.
+
+358. Which technique ensures that database indexes do not reveal sensitive data patterns?
+- A. Transparent data encryption
+- B. Index tokenization
+- C. Column-level encryption
+- D. Hash-based indexing
+
+**Answer: D**
+**Explanation:** Hash-based indexes store digests of sensitive fields, preventing inference of actual values while allowing lookup.
+
+359. Which architectural pattern isolates critical functions into separate security domains?
+- A. Microservices
+- B. Layered trust
+- C. Client-server
+- D. Monolithic
+
+**Answer: B**
+**Explanation:** A layered-trust architecture creates concentric domains with increasing assurance, enforcing controls at each boundary.
+
+360. Which principle mandates minimal shared code between components to reduce common vulnerabilities?
+- A. Defense in depth
+- B. Least common mechanism
+- C. Fail-safe defaults
+- D. Economy of mechanism
+
+**Answer: B**
+**Explanation:** Least common mechanism advises against sharing resources or code, limiting the impact of a vulnerability in one component.
+
+361. Which protocol provides mutual authentication and confidentiality for device management traffic?
+- A. Telnet
+- B. SNMPv3
+- C. HTTP
+- D. FTP
+
+**Answer: B**
+**Explanation:** SNMPv3 adds user-based security with authentication and encryption, protecting management data in transit.
+
+362. In a zero-trust network, which component enforces dynamic access policies at the workload interface?  
+- A. Network ACL  
+- B. Policy enforcement point  
+- C. Certificate authority  
+- D. Identity provider
+
+**Answer: B**
+**Explanation:** Policy enforcement points intercept requests and consult the policy decision point to grant or deny access per session.
+
+363. Which VLAN tagging method embeds two VLAN tags to bypass single-tag filtering?
+- A. QinQ
+- B. Double tagging
+- C. VxLAN
+- D. GRE
+
+**Answer: B**
+**Explanation:** Double tagging inserts an inner and outer VLAN tag; switches may strip the first tag and forward based on the second, enabling VLAN hopping.
+
+364. Which control prevents ARP spoofing by validating ARP responses against a trusted database?
+- A. Port security
+- B. Dynamic ARP inspection
+- C. DHCP snooping
+- D. MAC filtering
+
+**Answer: B**
+**Explanation:** Dynamic ARP inspection cross-checks ARP packets with DHCP snooping bindings, blocking invalid responses.
+
+365. Which OAuth 2.0 grant type issues a token based on user credentials?
+- A. Authorization Code
+- B. Client Credentials
+- C. Resource Owner Password Credentials
+- D. Implicit
+
+**Answer: C**
+**Explanation:** The Resource Owner Password Credentials grant exchanges a user’s username and password directly for an access token.
+
+366. Which IAM process periodically verifies that user privileges remain appropriate?
+- A. Provisioning
+- B. Deprovisioning
+- C. Access certification
+- D. Role engineering
+
+**Answer: C**
+**Explanation:** Access certification (or recertification) regularly reviews user access rights to ensure they still match job responsibilities.
+
+367. Which assessment technique safely tests live applications by injecting faults and measuring behavior?
+- A. Fuzzing
+- B. Penetration testing
+- C. Red teaming
+- D. Code review
+
+**Answer: A**
+**Explanation:** Fuzzing supplies malformed inputs to observe crashes and unexpected behaviors in running applications.
+
+368. Which artifact demonstrates that a web application’s input validation was tested against XSS?
+- A. Vulnerability scan report
+- B. Static code analysis log
+- C. Penetration test findings
+- D. Threat model
+
+**Answer: C**
+**Explanation:** Penetration test reports include evidence of successful or attempted XSS attacks, proving validation effectiveness.
+
+369. Which backup approach uses continuous snapshots to minimize data loss to seconds?
+- A. Differential backups
+- B. Incremental backups
+- C. Continuous data protection
+- D. Tape rotation
+
+**Answer: C**
+**Explanation:** Continuous Data Protection captures every write operation, allowing recovery to near-instant points in time.
+
+370. Which SOC process uses MITRE ATT&CK to categorize observed adversary behavior?
+- A. Threat hunting
+- B. Alert triage
+- C. False-positive tuning
+- D. Incident containment
+
+**Answer: A**
+**Explanation:** Threat hunters proactively search for tactics, techniques, and procedures mapped to ATT&CK to uncover stealthy attacks.
+
+371. Which ICS security principle ensures control systems cannot be manipulated by unauthorized users?
+- A. Defense in depth
+- B. Safety integrity level
+- C. Fail-safe
+- D. Trust boundaries
+
+**Answer: D**
+**Explanation:** Defining trust boundaries isolates control networks from corporate networks, preventing unauthorized command injection.
+
+372. During an incident, which channel ensures secure, authenticated communications among responders?
+- A. Email
+- B. Secure chat platform
+- C. Public social media
+- D. SMS
+
+**Answer: B**
+**Explanation:** A secure, authenticated chat platform prevents eavesdropping and impersonation in critical response coordination.
+
+373. Which secure-development practice enforces automated scanning of container images before deployment?
+- A. Manual review
+- B. Image signing
+- C. Container image scanning
+- D. Runtime protection
+
+**Answer: C**
+**Explanation:** Image scanners inspect embedded libraries for CVEs during build pipelines, preventing vulnerable containers from reaching production.
+
+374. Which technique prevents sensitive data exposure by substituting tokens for real values?
+- A. Masking
+- B. Encryption
+- C. Tokenization
+- D. Hashing
+
+**Answer: C**
+**Explanation:** Tokenization replaces actual data with non-sensitive placeholders, storing real values separately in a secure vault.
+
+375. Which SDLC phase is best for integrating static analysis tools into the build process?
+- A. Requirements
+- B. Design
+- C. Implementation
+- D. Maintenance
+
+**Answer: C**
+**Explanation:** Implementation integrates SAST tools directly into compilers or CI/CD jobs to catch code-level issues as developers commit.
+
+376. Which mechanism ensures that deployed code matches the reviewed and approved source?
+- A. Dependency scanning
+- B. Reproducible builds
+- C. Code obfuscation
+- D. Runtime integrity checks
+
+**Answer: B**
+**Explanation:** Reproducible builds guarantee that compiling the same source yields identical binary artifacts, ensuring provenance.
+
+377. Which architecture segregates workloads into micro-VMs with strict isolation?
+- A. Containerization
+- B. Hardware virtualization
+- C. Micro-hypervisor
+- D. Bare-metal
+
+**Answer: C**
+**Explanation:** Micro-hypervisors run minimal code in privileged mode and isolate each VM strongly, reducing the attack surface.
+
+378. Which protocol extension binds DNS records to DNSSEC-signed keys?
+- A. DANE
+- B. DNSSEC
+- C. TLSA
+- D. SSHFP
+
+**Answer: C**
+**Explanation:** TLSA records (used in DANE) associate TLS certificates with DNSSEC, enabling trust in DNS-based certificate validation.
+
+379. Which control prevents execution of memory pages containing data?
+- A. ASLR
+- B. DEP/NX
+- C. W^X
+- D. Stack canaries
+
+**Answer: B**
+**Explanation:** Data Execution Prevention (DEP) or NX-bit marks data pages non-executable, blocking code injection attacks.
+
+380. Which tool orchestrates playbooks to automate containment and remediation actions?
+- A. SIEM
+- B. SOAR
+- C. EDR
+- D. NIPS
+
+**Answer: B**
+**Explanation:** SOAR platforms integrate alerts and execute predefined playbooks for automated incident response across tools.
+
+381. Which process ensures pipeline secrets (API keys, tokens) are not exposed in build logs?
+- A. Log masking
+- B. Artifact signing
+- C. Dependency scanning
+- D. Code linting
+
+**Answer: A**
+**Explanation:** Log masking redacts sensitive environment variables and secrets during CI/CD execution logs.
+
+382. Which backup validation step confirms that backup data can be successfully restored?
+- A. Checksum verification
+- B. Restore test
+- C. Hash matching
+- D. Tape certification
+
+**Answer: B**
+**Explanation:** Performing an actual restore verifies the integrity and usability of backup data beyond metadata checks.
+
+383. Which standard provides guidelines for SCADA system security?
+- A. NIST SP 800-82
+- B. ISO 27002
+- C. IEC 62443
+- D. ISA-99
+
+**Answer: C**
+**Explanation:** IEC 62443 (formerly ISA-99) specifies cybersecurity requirements for industrial automation and control systems.
+
+384. Which mobile security feature ensures applications run in isolated sandboxes?  
+- A. SELinux policies  
+- B. Containerization  
+- C. Proof-of-possession tokens  
+- D. VPN
+
+**Answer: B**
+**Explanation:** Mobile OSes use containerization/sandboxing to isolate apps and restrict inter-app resource access.
+
+385. Which metric tracks the percentage of security alerts resolved within SLA targets?
+- A. Resolution rate
+- B. Detection rate
+- C. Escalation rate
+- D. False-negative rate
+
+**Answer: A**
+**Explanation:** Resolution rate measures how many alerts are closed within agreed timeframes, reflecting SOC effectiveness.
+
+386. Which process uses synthetic user transactions to validate monitoring alerts?
+- A. Health checks
+- B. Synthetic monitoring
+- C. Load testing
+- D. Penetration testing
+
+**Answer: B**
+**Explanation:** Synthetic monitoring simulates user actions to test system functionality and trigger alerts proactively.
+
+387. Which security control prevents modification of system binaries by unauthorized users?
+- A. File integrity monitoring
+- B. Host-based firewall
+- C. Application whitelisting
+- D. User training
+
+**Answer: C**
+**Explanation:** Whitelisting allows only approved executables to run or be modified; FIM detects changes, but doesn’t prevent them.
+
+388. Which authentication factor relies on inherence?
+- A. Password
+- B. Smart card
+- C. Fingerprint
+- D. Token
+
+**Answer: C**
+**Explanation:** Fingerprints are an inherence factor, based on unique biometric traits. Passwords are knowledge, tokens/smart cards are possession.
+
+389. Which network design uses ephemeral tunnels that exist only for the duration of a session?
+- A. GRE
+- B. DMVPN
+- C. VxLAN
+- D. MPLS
+
+**Answer: B**
+**Explanation:** Dynamic Multipoint VPN creates on-demand tunnels between sites, reducing constant overhead and improving scalability.
+
+390. Which concept ensures cross-site scripting payloads cannot execute in user browsers?
+- A. Content Security Policy
+- B. HTTP Strict Transport Security
+- C. CORS
+- D. CSP report-only
+
+**Answer: A**
+**Explanation:** CSP headers restrict sources of executable scripts, blocking inline or unauthorized script execution.
+
+391. Which secure-development practice embeds security tests into pull-request workflows?
+- A. Manual code review
+- B. Automated test integration
+- C. QA sign-off
+- D. Waterfall gating
+
+**Answer: B**
+**Explanation:** Automated test integration runs SAST, dependency checks, and unit tests on each pull request, catching issues early.
+
+392. Which IAM feature allows dynamic authorization decisions based on real-time risk scores?
+- A. RBAC
+- B. ABAC
+- C. Adaptive access
+- D. DAC
+
+**Answer: C**
+**Explanation:** Adaptive access uses contextual risk signals—device posture, location—to adjust privileges or require step-up authentication.
+
+393. Which forensic technique preserves volatile data before system shutdown?
+- A. Memory imaging
+- B. Disk cloning
+- C. Log archiving
+- D. Evidence bagging
+
+**Answer: A**
+**Explanation:** Memory imaging captures RAM contents—processes, credentials—before power-down alters or loses them.
+
+394. Which process aligns security controls with organizational risk appetite?
+- A. Gap analysis
+- B. Control self-assessment
+- C. Risk treatment planning
+- D. Business impact analysis
+
+**Answer: C**
+**Explanation:** Risk treatment planning selects which controls to implement, accept, avoid, or transfer based on risk appetite.
+
+395. Which tool scans Infrastructure as Code templates for misconfigurations before deployment?
+- A. Terraform
+- B. CloudFormation
+- C. Static code analyzer
+- D. Template linter
+
+**Answer: D**
+**Explanation:** Template linters (e.g., cfn-lint) validate IaC syntax and enforce security best practices in deployment scripts.
+
+396. Which standard mandates data breach notification within 72 hours for EU citizens?
+- A. GDPR
+- B. HIPAA
+- C. PCI-DSS
+- D. SOX
+
+**Answer: A**
+**Explanation:** GDPR requires organizations to report personal data breaches to authorities within 72 hours of detection.
+
+397. Which secure-development activity uses feature toggles to disable untested code paths in production?
+- A. A/B testing
+- B. Canary release
+- C. Feature flagging
+- D. Blue-green deployment
+
+**Answer: C**
+**Explanation:** Feature flags allow turning features on/off at runtime, preventing execution of risky or untested code.
+
+398. Which process uses chaos engineering to validate resilience of security controls?
+- A. Penetration testing
+- B. Red teaming
+- C. Failure injection
+- D. Compliance auditing
+
+**Answer: C**
+**Explanation:** Failure injection deliberately breaks systems (networks, services) to test the robustness and fault-tolerance of controls.
+
+399. Which network segmentation method controls traffic based on application attributes rather than IP addresses?
+- A. Micro-segmentation
+- B. Subnetting
+- C. VLANs
+- D. VPNs
+
+**Answer: A**
+**Explanation:** Micro-segmentation enforces policies at the workload level, filtering by application identity and context.
+
+400. Which security metric measures the proportion of known vulnerabilities actively being exploited?
+- A. Exploitation rate
+- B. Patch deployment rate
+- C. Vulnerability discovery rate
+- D. Mean time to remediation
+
+**Answer: A**
+**Explanation:** Exploitation rate tracks how many identified vulnerabilities have been observed in active attacks, guiding prioritization.
+
+401. Which governance principle ensures that security requirements support business objectives and strategies?
+- A. Risk appetite
+- B. Strategic alignment
+- C. Defense in depth
+- D. Separation of duties
+
+**Answer: B**
+**Explanation:** Strategic alignment links security programs to organizational goals. Risk appetite defines tolerance; defense in depth layers controls; separation of duties splits tasks.
+
+402. A company publishes its security metrics to stakeholders each quarter. Which governance activity does this exemplify?
+- A. Continuous monitoring
+- B. Compliance auditing
+- C. Management reporting
+- D. Policy enforcement
+
+**Answer: C**
+**Explanation:** Management reporting communicates performance to stakeholders. Continuous monitoring collects data; audits verify compliance; enforcement applies policies.
+
+403. Which risk treatment option involves modifying business processes to reduce risk exposure?
+- A. Transference
+- B. Avoidance
+- C. Mitigation
+- D. Acceptance
+
+**Answer: C**
+**Explanation:** Mitigation implements controls or process changes to lower risk. Avoidance eliminates activities, transference shifts risk, acceptance retains risk.
+
+404. Which document defines who may grant exceptions to security policies and under what conditions?
+- A. Exception management procedure
+- B. Acceptable use policy
+- C. Change management policy
+- D. Incident response plan
+
+**Answer: A**
+**Explanation:** Exception management procedures outline approval authority for policy deviations. AUP sets usage rules; change policy governs IT changes; IRP covers incident handling.
+
+405. Under which concept must executives demonstrate they’ve taken responsibility for security governance?
+- A. Due care
+- B. Due diligence
+- C. Principle of least privilege
+- D. Separation of duties
+
+**Answer: A**
+**Explanation:** Due care requires leaders to act responsibly and implement appropriate measures. Due diligence is ongoing assessment; least privilege restricts access; separation splits tasks.
+
+406. Which analysis technique quantifies potential loss in monetary terms for each threat scenario?
+- A. Qualitative risk analysis
+- B. Quantitative risk analysis
+- C. Hybrid risk analysis
+- D. Sensitivity analysis
+
+**Answer: B**
+**Explanation:** Quantitative analysis uses numerical values and monetary estimates. Qualitative uses descriptive scales; hybrid combines both.
+
+407. A regulator requires evidence that an organization’s risk program meets industry standards. Which artifact is most appropriate?
+- A. Risk register
+- B. Statement of applicability
+- C. Risk treatment plan
+- D. Third-party audit report
+
+**Answer: D**
+**Explanation:** A third-party audit report validates program conformity. A risk register logs risks; SoA lists controls; treatment plans propose actions.
+
+408. Which data-handling control ensures that sensitive records are only accessible after manager approval?
+- A. Mandatory access control
+- B. Role-based access control
+- C. Break-glass procedure
+- D. Dual control
+
+**Answer: D**
+**Explanation:** Dual control requires two parties to approve access. MAC enforces labels, RBAC uses roles, break-glass overrides in emergencies.
+
+409. Which classification label applies to data that can be shared with partners under NDA but not publicly?
+- A. Public
+- B. Internal use
+- C. Confidential
+- D. Restricted
+
+**Answer: C**
+**Explanation:** Confidential allows sharing under contractual agreement. Public is unrestricted; internal use is within the organization; restricted is for very limited audiences.
+
+410. During retention scheduling, which artifact dictates how long to keep financial transaction logs?
+- A. Retention schedule
+- B. Classification policy
+- C. Archival standard
+- D. Encryption policy
+
+**Answer: A**
+**Explanation:** The retention schedule sets retention periods. Classification defines labels; archival standards describe storage; encryption policy covers protection.
+
+411. Which disposal method for paper records meets regulatory requirements for highly sensitive information?
+- A. Single-sheet shredding
+- B. Cross-cut shredding
+- C. Recycling
+- D. Incineration
+
+**Answer: D**
+**Explanation:** Incineration completely destroys paper. Cross-cut shredding is acceptable for lower sensitivity, recycling doesn’t guarantee destruction.
+
+412. Which control prevents accidental disclosure by automatically redacting sensitive fields in reports?
+- A. Data masking
+- B. Tokenization
+- C. Encryption
+- D. Anonymization
+
+**Answer: A**
+**Explanation:** Data masking hides real values in outputs. Tokenization replaces with tokens; encryption protects at rest/transit; anonymization removes identifiers.
+
+413. Which security model enforces “no write down, no read up” for integrity?
+- A. Bell-LaPadula
+- B. Biba
+- C. Clark-Wilson
+- D. Brewer-Nash
+
+**Answer: B**
+**Explanation:** Biba prevents high-integrity subjects from writing to low-integrity objects and reading from low to high. Bell-LaPadula is confidentiality-centric; Clark-Wilson is transaction-based.
+
+414. Which hardware component provides hardware-enforced isolation for virtual machines?
+- A. CPU virtualization extensions
+- B. I/O virtualization
+- C. Trap-and-emulate
+- D. Software hypervisor
+
+**Answer: A**
+**Explanation:** CPU VT-x/AMD-V extensions isolate VMs at hardware level. I/O virtualization isolates devices; trap-and-emulate is software-based.
+
+415. Which security concept minimizes shared mechanisms to reduce attack surface?
+- A. Least common mechanism
+- B. Fail-safe defaults
+- C. Economy of mechanism
+- D. Complete mediation
+
+**Answer: A**
+**Explanation:** Least common mechanism advises against sharing resources. Economy of mechanism suggests simplicity; fail-safe defaults deny by default; complete mediation checks all access.
+
+416. Which architectural pattern uses enclaves to limit communication between components?
+- A. Modular monolith
+- B. Microservices
+- C. Trusted execution environments
+- D. Zero trust
+
+**Answer: C**
+**Explanation:** TEEs isolate code/data in hardware enclaves. Microservices separate services but not hardware-protected; zero trust is a network principle.
+
+417. Which cryptographic requirement ensures that modules are validated against FIPS 140-2?
+- A. Baseline
+- B. Standard
+- C. Guideline
+- D. Policy
+
+**Answer: B**
+**Explanation:** A standard mandates specific compliance (FIPS 140-2). Baselines set minimal config; guidelines advise; policies set high-level directives.
+
+418. Which control type isolates system firmware from the OS to prevent rootkits?
+- A. Secure boot
+- B. TPM sealing
+- C. Memory encryption
+- D. DEP/NX
+
+**Answer: A**
+**Explanation:** Secure Boot verifies firmware signatures before OS loads. TPM seals measure state; memory encryption protects data; DEP/NX blocks execution.
+
+419. Which protocol authenticates devices on a network before granting IP addresses?
+- A. DHCP snooping
+- B. 802.1X
+- C. MAC filtering
+- D. NAC
+
+**Answer: B**
+**Explanation:** 802.1X uses EAP to authenticate devices at the switch port. DHCP snooping builds binding tables, MAC filtering limits addresses, NAC enforces policies post-auth.
+
+420. Which tunneling protocol encrypts both payload and header information?
+- A. GRE
+- B. IPSec tunnel mode
+- C. L2TP
+- D. PPTP
+
+**Answer: B**
+**Explanation:** IPSec tunnel mode encapsulates and encrypts the entire IP packet. GRE is unencrypted; L2TP often runs over IPSec; PPTP is insecure.
+
+421. Which wireless security mechanism ensures forward secrecy for each session?
+- A. WPA2-PSK
+- B. WPA3-SAE
+- C. WPA2-Enterprise
+- D. WEP
+
+**Answer: B**
+**Explanation:** WPA3-SAE (Simultaneous Authentication of Equals) provides forward secrecy. WPA2-PSK/Enterprise do not; WEP is insecure.
+
+422. Which network device dynamically filters ARP responses to prevent poisoning?
+- A. Switch port security
+- B. Dynamic ARP inspection
+- C. IP source guard
+- D. DHCP snooping
+
+**Answer: B**
+**Explanation:** Dynamic ARP Inspection validates ARP packets against DHCP snooping tables. Port security and IP source guard limit devices; DHCP snooping builds tables.
+
+423. Which feature of TLS detects and prevents protocol downgrade attacks?
+- A. HSTS
+- B. OCSP stapling
+- C. Perfect forward secrecy
+- D. TLS_FALLBACK_SCSV
+
+**Answer: D**
+**Explanation:** TLS_FALLBACK_SCSV signals that a downgraded connection attempt is inappropriate, preventing protocol downgrades. HSTS applies to HTTP, OCSP stapling checks revocation, PFS protects keys.
+
+424. Which network segmentation method isolates workloads at the data-link layer?
+- A. Subnetting
+- B. VLAN
+- C. VPN
+- D. GRE
+
+**Answer: B**
+**Explanation:** VLANs segment at Layer 2. Subnets operate at Layer 3; VPNs and GRE encapsulate traffic but don’t inherently segment.
+
+425. Which IAM process uses analytics to detect anomalous user access patterns?
+- A. Provisioning
+- B. Access certification
+- C. UEBA
+- D. Federation
+
+**Answer: C**
+**Explanation:** User and Entity Behavior Analytics profiles and flags anomalies. Provisioning grants access; certification reviews rights; federation shares identities.
+
+426. Which protocol enables single sign-on across domain boundaries using Kerberos tickets?
+- A. LDAP
+- B. SAML
+- C. Kerberos cross-realm trust
+- D. OAuth
+
+**Answer: C**
+**Explanation:** Kerberos cross-realm trusts allow tickets from one realm to be accepted in another. SAML is web-based; LDAP is directory; OAuth is authorization.
+
+427. Which control automatically revokes privileges for terminated employees?
+- A. Deprovisioning workflow
+- B. Access certification
+- C. Role mining
+- D. MFA enforcement
+
+**Answer: A**
+**Explanation:** Deprovisioning workflows remove entitlements upon termination. Certification reviews periodic access; role mining analyzes roles; MFA enforces strong auth.
+
+428. Which mechanism uses attribute-based rules to grant or deny access in real time?
+- A. RBAC
+- B. MAC
+- C. ABAC
+- D. DAC
+
+**Answer: C**
+**Explanation:** ABAC evaluates attributes (user, resource, environment) dynamically. RBAC uses static roles; MAC uses labels; DAC uses owner discretion.
+
+429. Which directory attribute uniquely identifies objects across renames?
+- A. CN
+- B. DN
+- C. GUID
+- D. OU
+
+**Answer: C**
+**Explanation:** A GUID remains constant even if names or paths change. CN/DN reflect naming; OU denotes organizational unit.
+
+430. Which IAM feature blocks logins from unusual geographic locations in real time?
+- A. Geofencing
+- B. VPN enforcement
+- C. MAC filtering
+- D. Port security
+
+**Answer: A**
+**Explanation:** Geofencing restricts access by geographic region. VPNs tunnel traffic, MAC filtering limits devices, port security applies to network ports.
+
+431. Which assessment type uses live malware to evaluate detection capabilities in a sandbox?
+- A. Vulnerability scanning
+- B. Malware sandboxing
+- C. Penetration testing
+- D. Security audit
+
+**Answer: B**
+**Explanation:** Malware sandboxing executes real malicious code in isolation to test detection. Scans identify known CVEs; pen tests exploit; audits review controls.
+
+432. Which tool compares source code changes against approved baselines to detect unauthorized modifications?
+- A. Static code analyzer
+- B. Version control diff
+- C. Runtime application self-protection
+- D. SIEM
+
+**Answer: B**
+**Explanation:** Version control diffs show code changes relative to baselines. SAST reviews code for vulnerabilities, RASP protects at runtime, SIEM aggregates logs.
+
+433. Which security testing method evaluates APIs for logic flaws and injection vulnerabilities?
+- A. DAST
+- B. SAST
+- C. IAST
+- D. API fuzzing
+
+**Answer: D**
+**Explanation:** API fuzzing sends malformed inputs to probe for vulnerabilities. DAST tests web apps; SAST inspects code; IAST combines both at runtime.
+
+434. Which metric indicates the percentage of false negatives in vulnerability scanning?
+- A. False positive rate
+- B. Detection rate
+- C. False negative rate
+- D. Coverage ratio
+
+**Answer: C**
+**Explanation:** False negative rate measures how many real issues were missed. False positive rate measures noise; detection rate measures successes; coverage ratio measures scope.
+
+435. Which process ensures penetration-test findings are tracked to closure?
+- A. Issue management workflow
+- B. Continuous monitoring
+- C. Change advisory board
+- D. Release management
+
+**Answer: A**
+**Explanation:** Issue management workflows log, assign, remediate, and verify closure of findings. Continuous monitoring observes; CAB approves changes; release management deploys code.
+
+436. Which backup validation step uses checksum comparison to ensure data integrity?
+- A. Hash verification
+- B. Restore test
+- C. Snapshot comparison
+- D. Encryption check
+
+**Answer: A**
+**Explanation:** Hashes validate that backed-up data matches original content. Restore tests verify usability; snapshots compare states; encryption checks keys.
+
+437. Which SOC function focuses on analyzing and triaging alerts from multiple tools?
+- A. Detection
+- B. Incident response
+- C. Threat hunting
+- D. Forensics
+
+**Answer: A**
+**Explanation:** Detection involves monitoring and triaging alerts. IR responds; threat hunting seeks undetected threats; forensics investigates incidents.
+
+438. Which part of the incident-response plan describes external communications procedures?
+- A. Notification matrix
+- B. Containment strategy
+- C. Eradication steps
+- D. Recovery timeline
+
+**Answer: A**
+**Explanation:** A notification matrix lists stakeholders, channels, and messages for incident communication. Containment, eradication, and recovery cover technical activities.
+
+439. Which operational control ensures anti-malware definitions are current on servers?
+- A. Patch management
+- B. Antivirus updates
+- C. Vulnerability scanning
+- D. Baselining
+
+**Answer: B**
+**Explanation:** Antivirus definition updates keep detection current. Patch management updates software; scans find vulnerabilities; baselining enforces configs.
+
+440. Which technique uses synthetic DNS requests to validate detection of DNS-based exfiltration?
+- A. DNS health checks
+- B. Canary DNS records
+- C. DNS sinkholing
+- D. DNSSEC
+
+**Answer: B**
+**Explanation:** Canary DNS records trigger alerts when accessed, indicating potential tunneling. Health checks verify availability; sinkholing redirects traffic; DNSSEC ensures integrity.
+
+441. Which methodology tests incident-response processes through simulated exercises?
+- A. Tabletop exercise
+- B. Penetration testing
+- C. Vulnerability scanning
+- D. Code review
+
+**Answer: A**
+**Explanation:** Tabletop exercises walk through scenarios with stakeholders to validate plans. Pen tests attack systems; scans find flaws; code reviews inspect source.
+
+442. Which backup type captures only changed blocks since the last backup, minimizing storage?
+- A. Block-level incremental
+- B. File-level differential
+- C. Full backup
+- D. Snapshot
+
+**Answer: A**
+**Explanation:** Block-level incremental backs up changed disk blocks. File-level differential backs up whole files changed; full backs all data; snapshots depend on storage.
+
+443. Which SOC metric measures average time from alert to containment?
+- A. MTTD
+- B. MTTR
+- C. Time to containment
+- D. Time to patch
+
+**Answer: C**
+**Explanation:** Time to containment specifically tracks duration to isolate and stop an incident. MTTD measures detection; MTTR recovery; time to patch patching.
+
+444. Which secure-coding practice prevents buffer overflows in C programs?
+- A. Use of strcpy()
+- B. Use of strncpy()
+- C. Dynamic code evaluation
+- D. Buffer padding
+
+**Answer: B**
+**Explanation:** strncpy() limits copy length to prevent overflow. strcpy() is unsafe; dynamic evaluation is risky; padding doesn’t prevent overflow.
+
+445. Which code-review technique uses pair programming to catch defects early?
+- A. Static analysis
+- B. Pair programming
+- C. Automated linting
+- D. Post-release audit
+
+**Answer: B**
+**Explanation:** Pair programming has two developers collaborate in real time, catching issues during development. Static analysis and linting are tool-based; audits occur later.
+
+446. Which CI/CD control blocks deployments when security policy violations occur?
+- A. Manual gate
+- B. Automated policy check
+- C. Post-deployment scan
+- D. Release branch
+
+**Answer: B**
+**Explanation:** Automated policy checks in pipelines enforce security gates. Manual gates introduce delay; post-deployment scans find issues after release; branches manage code.
+
+447. Which secure-development artifact lists all third-party components and their licenses?
+- A. SBOM
+- B. Threat model
+- C. Data flow diagram
+- D. RTM
+
+**Answer: A**
+**Explanation:** Software Bill of Materials enumerates components and licenses. Threat models map threats; DFDs map data; RTMs map requirements to tests.
+
+448. Which practice embeds security tests into nightly builds to detect regressions?
+- A. Regression security testing
+- B. Unit testing
+- C. Ad hoc testing
+- D. UAT
+
+**Answer: A**
+**Explanation:** Regression security tests rerun known checks to ensure fixes remain effective. Unit tests validate code logic; UAT tests user scenarios.
+
+449. Which DevSecOps principle ensures developers own the security of their code?
+- A. Shift left
+- B. Shift right
+- C. Waterfall
+- D. Separate security team
+
+**Answer: A**
+**Explanation:** “Shift left” moves security activities earlier in the SDLC, making developers responsible. Shift right focuses on post-release; waterfall and separate teams isolate security.
+
+450. Which technique monitors runtime application behavior to block zero-day exploits?
+- A. Runtime Application Self-Protection
+- B. Static code analysis
+- C. Dependency scanning
+- D. SAST
+
+**Answer: A**
+**Explanation:** RASP instruments applications at runtime to detect and prevent attacks. SAST analyzes code pre-deployment; dependency scanning checks libraries.
+
+451. Which statement best describes inherent risk?
+- A. Risk after controls
+- B. Risk before controls
+- C. Risk transferred to insurers
+- D. Risk accepted by management
+
+**Answer: B**
+**Explanation:** Inherent risk is the level of risk present before any controls are applied.
+
+452. Which method validates the integrity of critical configuration files?
+- A. Hash validation
+- B. Password complexity check
+- C. Antivirus scan
+- D. Penetration test
+
+**Answer: A**
+**Explanation:** Hash validation compares file checksums to known good values, verifying integrity.
+
+453. Which secure design principle dictates that code be written to fail safely?
+- A. Fail-secure
+- B. Fail-safe defaults
+- C. Defense in depth
+- D. Least privilege
+
+**Answer: B**
+**Explanation:** Fail-safe defaults ensure systems deny access by default if they fail.
+
+454. Which network component inspects encrypted traffic by terminating SSL sessions?
+- A. TLS termination proxy
+- B. Stateless firewall
+- C. VLAN switch
+- D. IDS sensor
+
+**Answer: A**
+**Explanation:** A TLS termination proxy decrypts traffic for inspection before re-encrypting it.
+
+455. Which remote-access technology ensures multi-factor authentication and encryption for VPN connections?
+- A. PPTP
+- B. IPSec VPN with MFA
+- C. Telnet
+- D. HTTP proxy
+
+**Answer: B**
+**Explanation:** IPSec VPN with MFA secures tunnels with strong cryptography and multiple authentication factors.
+
+456. Which protocol uses mutual certificate-based authentication for device management?
+- A. SNMPv1
+- B. SNMPv3
+- C. SSH
+- D. HTTP
+
+**Answer: B**
+**Explanation:** SNMPv3 can use certificates for both authentication and encryption.
+
+457. Which IAM control periodically reviews roles and adjusts assignments?  
+- A. Access certification  
+- B. Provisioning  
+- C. Deprovisioning  
+- D. Role engineering
+
+**Answer: A**
+**Explanation:** Access certification verifies that user roles still align with job responsibilities.
+
+458. Which testing method uses realistic malware campaigns to assess detection and response?
+- A. Malware sandboxing
+- B. Red team exercises
+- C. Vulnerability scanning
+- D. Code review
+
+**Answer: B**
+**Explanation:** Red team exercises simulate advanced attacks to test defenses and workflows.
+
+459. Which process ensures logs are collected, stored, and protected for forensic analysis?
+- A. SIEM implementation
+- B. Change management
+- C. Asset inventory
+- D. Configuration management
+
+**Answer: A**
+**Explanation:** SIEM solutions centralize and secure logs to support investigation and correlation.
+
+460. Which backup type allows restoration of a system to a specific historical point?
+- A. Point-in-time snapshot
+- B. Full backup
+- C. Incremental backup
+- D. Differential backup
+
+**Answer: A**
+**Explanation:** Snapshots capture the system state at a precise moment for exact recovery.
+
+461. Which practice enforces coding standards and automatically rejects violations at commit time?
+- A. Pre-commit hooks
+- B. Manual code review
+- C. Incident response
+- D. Vulnerability scan
+
+**Answer: A**
+**Explanation:** Pre-commit hooks run checks and block commits that violate defined policies.
+
+462. Which method secures microservices communication with mutual TLS authentication?
+- A. API Gateway
+- B. Service mesh with mTLS
+- C. VPN
+- D. SSH tunnel
+
+**Answer: B**
+**Explanation:** Service meshes with mTLS provide strong, service-to-service encryption and authentication.
+
+463. Which database feature splits data access by roles and tags at row level?
+- A. Row-level security
+- B. Table partitioning
+- C. Indexing
+- D. Clustering
+
+**Answer: A**
+**Explanation:** Row-level security enforces access controls on individual records based on policies.
+
+464. Which control hardens APIs by validating JSON Web Tokens on every request?
+- A. JWT middleware
+- B. Static code analysis
+- C. URL filtering
+- D. Password hashing
+
+**Answer: A**
+**Explanation:** JWT middleware verifies tokens and permissions before processing API calls.
+
+465. Which strategy prevents supply-chain attacks by requiring signed dependencies?
+- A. Code signing
+- B. Fuzz testing
+- C. Performance profiling
+- D. Load testing
+
+**Answer: A**
+**Explanation:** Code signing ensures that dependencies are authentic and tamper-evident.
+
+466. Which practice isolates build environments to prevent influence from developer workstations?
+- A. Clean room build
+- B. Insecure testing
+- C. Client-side signing
+- D. Out-of-band management
+
+**Answer: A**
+**Explanation:** Clean room builds use isolated systems and known inputs to guarantee reproducibility.
+
+467. Which branch policy enforces successful security test results before merging code?
+- A. Protected branch with status checks
+- B. Open branch policy
+- C. Manual merge
+- D. No policy
+
+**Answer: A**
+**Explanation:** Protected branches block merges until required checks, such as SAST, pass.
+
+468. Which metrics indicate the average time to patch critical vulnerabilities?
+- A. Time to patch
+- B. Detection rate
+- C. Escalation rate
+- D. Failure rate
+
+**Answer: A**
+**Explanation:** Time to patch measures how quickly security fixes are applied after disclosure.
+
+469. Which control type uses hardware modules to store encryption keys in a tamper-proof environment?
+- A. HSM
+- B. TPM
+- C. Software key store
+- D. Key escrow
+
+**Answer: A**
+**Explanation:** Hardware Security Modules protect keys with physical and logical safeguards.
+
+470. Which protocol ensures confidentiality and integrity for endpoints using UDP?
+- A. DTLS
+- B. TLS
+- C. SSH
+- D. IPsec
+
+**Answer: A**
+**Explanation:** DTLS applies TLS security to applications over UDP connections.
+
+471. Which network design ensures East–West traffic flows through microsegmentation policies?
+- A. Service mesh
+- B. Port-based VLAN
+- C. Subnet routing
+- D. MPLS
+
+**Answer: A**
+**Explanation:** Service meshes control and secure internal service communications with fine-grained policies.
+
+472. Which IDS type uses statistical baselines to detect anomalous traffic patterns?
+- A. Anomaly-based IDS
+- B. Signature-based IDS
+- C. Protocol-based IDS
+- D. Content-based IDS
+
+**Answer: A**
+**Explanation:** Anomaly-based systems detect deviations from learned normal behaviors.
+
+473. Which technique applies secure-by-default configurations at OS installation time?
+- A. Image hardening
+- B. Dynamic scanning
+- C. Live patching
+- D. Network segmentation
+
+**Answer: A**
+**Explanation:** Hardened images include secure settings and minimal services from the outset.
+
+474. Which control ensures that only approved containers run in production?
+- A. Runtime compliance enforcement
+- B. Manual approval
+- C. Password rotation
+- D. Port blocking
+
+**Answer: A**
+**Explanation:** Runtime compliance enforces policies to block unauthorized container images.
+
+475. Which IAM feature suspends sessions when risk indicators exceed thresholds?
+- A. Adaptive access
+- B. Single sign-on
+- C. Role-based access
+- D. Multi-factor authentication
+
+**Answer: A**
+**Explanation:** Adaptive access assesses risk signals and can terminate or challenge sessions dynamically.
+
+476. Which method secures inter-process communication by using shared memory with access control?
+- A. IPC namespaces
+- B. Named pipes
+- C. Domain sockets
+- D. Shared memory segments with ACLs
+
+**Answer: D**
+**Explanation:** Controlled shared memory segments enforce ACLs to restrict access between processes.
+
+477. Which process ensures that test data contains no real customer information?
+- A. Data anonymization
+- B. Encryption in transit
+- C. Secure boot
+- D. Two-factor authentication
+
+**Answer: A**
+**Explanation:** Anonymization removes or masks personal identifiers from test datasets.
+
+478. Which artifact lists every input validation routine and its coverage?
+- A. Test coverage report
+- B. Threat model
+- C. Data flow diagram
+- D. Use case specification
+
+**Answer: A**
+**Explanation:** Test coverage reports detail which code paths, including validation routines, have been exercised by tests.
+
+479. Which secure-coding guideline enforces the principle of least privilege in application processes?
+- A. Run services under dedicated low-privilege accounts
+- B. Use global administrative privileges for simplicity
+- C. Hard-code administrative credentials
+- D. Store passwords in plain text
+
+**Answer: A**
+**Explanation:** Running services with minimal privileges limits the impact of a compromise.
+
+480. Which technique validates that deployed microservices match approved baselines?
+- A. Continuous configuration monitoring
+- B. Vulnerability scanning
+- C. Load testing
+- D. Manual inspection
+
+**Answer: A**
+**Explanation:** Continuous monitoring compares running configurations against known baselines and alerts on drift.
+
+481. Which cryptographic requirement mandates periodic key rotation to limit exposure?
+- A. Key rollover
+- B. Key escrow
+- C. Key synchronization
+- D. Key continuity
+
+**Answer: A**
+**Explanation:** Key rollover schedules regular replacement of keys to reduce risk from key compromise.
+
+482. Which protocol extension enforces mandatory encryption of SNMP traffic?
+- A. SNMPv3
+- B. SNMPv2
+- C. Telnet
+- D. SMTP
+
+**Answer: A**
+**Explanation:** SNMPv3 adds authentication and encryption to secure SNMP communications.
+
+483. Which SOC capability uses automation to respond to threats within seconds?  
+- A. SOAR  
+- B. SIEM  
+- C. DLP  
+- D. IDS  
+
+**Answer: A**
+**Explanation:** SOAR platforms coordinate security tools and execute playbooks for rapid automated responses.
+
+484. Which backup approach reduces RPO to near zero by capturing every write operation?
+- A. Continuous Data Protection
+- B. Incremental backups
+- C. Differential backups
+- D. Tape rotation
+
+**Answer: A**
+**Explanation:** CDP records every change in real time, allowing recovery to any point.
+
+485. Which identity federation standard uses JSON Web Tokens for mobile apps?
+- A. OpenID Connect
+- B. SAML
+- C. LDAP
+- D. Kerberos
+
+**Answer: A**
+**Explanation:** OpenID Connect issues JWTs, which are ideal for stateless, mobile environments.
+
+486. Which secure-development practice integrates dependency checks into CI pipelines?
+- A. Automated dependency scanning
+- B. Manual code review
+- C. Ad hoc testing
+- D. Waterfall gating
+
+**Answer: A**
+**Explanation:** Automated scanning tools in CI/CD pipelines detect vulnerable libraries before deployment.
+
+487. Which network control uses dynamic trust zones based on labels rather than IP addresses?
+- A. Software-defined perimeter
+- B. VLAN
+- C. Subnet
+- D. DMZ
+
+**Answer: A**
+**Explanation:** Software-defined perimeters map policies to identity and context, not fixed network segments.
+
+488. Which practice uses out-of-band verification for high-risk transactions?
+- A. Dual control
+- B. Break-glass
+- C. Job rotation
+- D. Retention scheduling
+
+**Answer: A**
+**Explanation:** Dual control requires two independent approvals for sensitive operations.
+
+489. Which type of test assesses the security of web applications by emulating attacker techniques?
+- A. Penetration testing
+- B. Vulnerability scanning
+- C. Configuration audit
+- D. Code compliance check
+
+**Answer: A**
+**Explanation:** Pen tests actively exploit weaknesses to assess real-world security posture.
+
+490. Which control provides proof of code integrity during deployment by verifying digital signatures?
+- A. Code signing
+- B. Fuzz testing
+- C. Unit testing
+- D. Load testing
+
+**Answer: A**
+**Explanation:** Signed code artifacts ensure authenticity and integrity from build to production.
+
+491. Which practice ensures developers fix security issues within sprint cycles?
+- A. Security champions program
+- B. Separate security team
+- C. Quarterly audits
+- D. Penetration testing
+
+**Answer: A**
+**Explanation:** Security champions embed expertise in teams, driving immediate remediation.
+
+492. Which IAM feature enforces time-of-day restrictions on privileged access?
+- A. Time-based policies
+- B. Password complexity rules
+- C. Multi-factor authentication
+- D. Role-based access
+
+**Answer: A**
+**Explanation:** Time-based policies block or allow access according to configured schedules.
+
+493. Which log source is most valuable for tracing lateral movement via service tickets in Active Directory?
+- A. Security event logs
+- B. DHCP logs
+- C. Web proxy logs
+- D. Database logs
+
+**Answer: A**
+**Explanation:** AD security logs record ticket usage and authentication events.
+
+494. Which control can detect unauthorized changes to container images in a registry?
+- A. Image integrity scanning
+- B. Static code analysis
+- C. Penetration testing
+- D. Manual review
+
+**Answer: A**
+**Explanation:** Registry scanners verify image signatures and look for tampered layers.
+
+495. Which standard outlines best practices for secure software development cycles?
+- A. OWASP SAMM
+- B. ISO 27001
+- C. COBIT
+- D. ITIL
+
+**Answer: A**
+**Explanation:** OWASP Software Assurance Maturity Model (SAMM) guides secure development practices.
+
+496. Which process uses baseline deviations to trigger automated remediation?  
+- A. Continuous configuration automation  
+- B. Manual patching  
+- C. Annual audit  
+- D. Ad hoc testing
+
+**Answer: A**
+**Explanation:** Continuous automation tools detect drift and automatically enforce baseline configurations.
+
+497. Which concept uses behavior-based detection to identify insider threats?
+- A. UEBA
+- B. DLP
+- C. SIEM
+- D. IDS
+
+**Answer: A**
+**Explanation:** User and Entity Behavior Analytics flags anomalous actions indicative of insider risk.
+
+498. Which backup strategy uses cloud storage for offsite, immutable retention?
+- A. Write-once, read-many object storage
+- B. Local disk backup
+- C. Tape rotation
+- D. Standby mirror
+
+**Answer: A**
+**Explanation:** WORM object storage prevents modification or deletion of backups within retention windows.
+
+499. Which practice requires peer review of infrastructure-as-code templates prior to deployment?
+- A. Pull request workflow
+- B. Manual SSH changes
+- C. Ad hoc deployments
+- D. Weekend maintenance
+
+**Answer: A**
+**Explanation:** Pull requests enforce peer validation and automated checks on IaC.
+
+500. Which metric measures the proportion of security vulnerabilities found before production deployment?
+- A. Pre-release defect detection rate
+- B. Post-incident response rate
+- C. Mean time to repair
+- D. Annualized loss expectancy
+
+**Answer: A**
+**Explanation:** This rate shows how effectively security issues are caught earlier in the SDLC.
